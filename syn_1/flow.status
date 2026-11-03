@@ -1,0 +1,23 @@
+Location         : D:\FpgaOtherPro\TangDynastyPro\QHMU_HDMI_PRO\QHMU_HDMI_PRO_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : QHMU_HDMI_TOP
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -15658ps  TNS -1015055ps  NUM_FEPS   733
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  22s(50%)   |    21(50%)    |        781        |        797        
+  optimize_rtl   |    1     |  22s(50%)   |    21(50%)    |        658        |        797        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        81         |        81         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+    read_sdc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+--------------------------------------------------------------------------------------------------
+      total      |    5     |     44s     |      42       |        781        |        797        
+--------------------------------------------------------------------------------------------------

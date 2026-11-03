@@ -1,0 +1,209 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/ElectSoftware/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     John
+   Run Date =   Tue Nov  3 12:51:35 2026
+
+   Run on =     DESKTOP-8EJLQT9
+============================================================
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(70)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../rtl/vendor/sdr_as_ram.enc.v(17)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3739)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3970)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7364)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7474)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7584)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12057)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12735)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12866)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(14456)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1293)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1303)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1315)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1325)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/tx_client_fifo.v(1291)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/tx_client_fifo.v(1312)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/rx_client_fifo.v(873)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/rx_client_fifo.v(883)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/rx_client_fifo.v(894)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/rx_client_fifo.v(904)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/rx_client_fifo.v(871)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/rx_client_fifo.v(892)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2666)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2671)
+HDL-5323 WARNING: input port 's_axi_aclk' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_l/dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_tx_client_fifo/ramgen_u/dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_init_ref_ba[1]" in ../../rtl/vendor/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[1]" in ../../rtl/vendor/sdr_wrrd.enc.v(0)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_init_ref_ba[0]" in ../../rtl/vendor/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[0]" in ../../rtl/vendor/sdr_wrrd.enc.v(0)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_fat32/ramread0_syn_4" in ../../rtl/sd/QHMU_FAT32_READER.v(376) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_fat32/ramread0_syn_4" in ../../rtl/sd/QHMU_FAT32_READER.v(376) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_frame_write_fifo/ramread0_syn_4" in ../../rtl/common/QHMU_ASYNC_FIFO.v(107) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_frame_write_fifo/ramread0_syn_4" in ../../rtl/common/QHMU_ASYNC_FIFO.v(107) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-6577 WARNING: The clock signal "u_sdram/u_sdr_as_ram/SDRAM_CLK" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-6562 WARNING: The init value of "u_fat32/ramread0_syn_4(../../rtl/sd/QHMU_FAT32_READER.v(376))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_frame_write_fifo/ramread0_syn_4(../../rtl/common/QHMU_ASYNC_FIFO.v(107))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo_syn_327(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_497(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_353(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_a0/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_a1/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_b0/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_b1/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_rx_client_fifo/ramgen_l/inst(../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_rx_client_fifo/ramgen_u/inst(../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_tx_client_fifo/ramgen_l/inst(../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_tx_client_fifo/ramgen_u/inst(../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_udp_ip_protocol_stack/ip_layer/icmp_echo_data_fifo/u_anlogic_soft_async_fifo/inst(../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_subtitle_player/u_sub_ram/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_wav_player/u_pcm_fifo/ramread0_syn_4(../../rtl/audio/QHMU_AUDIO_FIFO.v(119))" will be ignored since gate eram_init is set to off
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[0]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[1]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[2]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[3]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[4]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[5]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[6]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[7]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[8]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[9]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[10]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[11]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[12]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[13]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[14]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[15]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[16]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[17]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[18]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[19]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[20]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[21]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[22]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[23]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[24]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[25]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[26]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[27]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[28]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[29]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[30]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[31]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets

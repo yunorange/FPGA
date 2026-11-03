@@ -1,0 +1,1837 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/ElectSoftware/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     John
+   Run Date =   Tue Nov  3 12:51:35 2026
+
+   Run on =     DESKTOP-8EJLQT9
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project QHMU_HDMI_PRO.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../rtl/audio/QHMU_AUDIO_FIFO.v
+HDL-1007 : analyze verilog file ../../rtl/audio/QHMU_AUDIO_MANAGER.v
+HDL-1007 : analyze verilog file ../../rtl/audio/QHMU_HDMI_ACR.v
+HDL-1007 : analyze verilog file ../../rtl/audio/QHMU_WAV_PLAYER.v
+HDL-1007 : analyze verilog file ../../rtl/clock/QHMU_CLOCK_RESET.v
+HDL-1007 : analyze verilog file ../../rtl/clock/QHMU_HDMI_PLL.v
+HDL-1007 : analyze verilog file ../../rtl/clock/QHMU_SDRAM_PLL.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_ASYNC_FIFO.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_CDC_MAILBOX.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_DEBOUNCE.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_DPRAM_DC.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_PULSE_SYNC.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_RESET_SYNC.v
+HDL-1007 : analyze verilog file ../../rtl/common/QHMU_SYNC_BUS.v
+HDL-1007 : analyze verilog file ../../rtl/control/QHMU_IMAGE_MANAGER.v
+HDL-1007 : analyze verilog file ../../rtl/control/QHMU_USER_CONTROL.v
+HDL-1007 : analyze verilog file ../../rtl/display/QHMU_BUZZER.v
+HDL-1007 : analyze verilog file ../../rtl/display/QHMU_SEG7_DRIVER.v
+HDL-1007 : analyze verilog file ../../rtl/hdmi/QHMU_HDMI_PHY.v
+HDL-1007 : analyze verilog file ../../rtl/hdmi/QHMU_HDMI_TX.v
+HDL-1007 : analyze included file ../../rtl/hdmi/../QHMU_DEFINES.vh in ../../rtl/hdmi/QHMU_HDMI_TX.v(1)
+HDL-1007 : back to file '../../rtl/hdmi/QHMU_HDMI_TX.v' in ../../rtl/hdmi/QHMU_HDMI_TX.v(1)
+HDL-1007 : analyze verilog file ../../rtl/hdmi/QHMU_TMDS_SERIALIZER.v
+HDL-1007 : analyze verilog file ../../rtl/memory/QHMU_SDRAM_ARB.v
+HDL-1007 : analyze included file ../../rtl/memory/../QHMU_DEFINES.vh in ../../rtl/memory/QHMU_SDRAM_ARB.v(1)
+HDL-1007 : back to file '../../rtl/memory/QHMU_SDRAM_ARB.v' in ../../rtl/memory/QHMU_SDRAM_ARB.v(1)
+HDL-1007 : analyze verilog file ../../rtl/memory/QHMU_SDRAM_WRAPPER.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/IDDR.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/ODDR.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/RAMB16_S9_S9.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(109)
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v
+HDL-1007 : undeclared symbol 'open_n0', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3736)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3741)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3972)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(4084)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7366)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7471)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7476)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7553)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7560)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7567)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7574)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7581)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7586)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7593)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7600)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7607)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7614)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12059)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12101)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12737)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12842)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12849)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12856)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12863)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12868)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12875)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12882)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12889)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12896)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(14453)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(14458)
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/div_clk_gen.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/pll_gen.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../rtl/net/anlogic_official/pll_gen.v(99)
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/rgmii_interface.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/rx_client_fifo.v
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/rx_client_fifo.v(63)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/rx_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../rtl/net/anlogic_official/rx_pll.v(86)
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/temac_block.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/temac_clk_gen.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/tx_client_fifo.v
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../rtl/net/anlogic_official/tx_client_fifo.v(67)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/tx_clk_en_gen.v
+HDL-1007 : analyze verilog file ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file '../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(56)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2638)
+HDL-1007 : back to file '../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(420)
+HDL-1007 : analyze verilog file ../../rtl/sd/QHMU_FAT32_READER.v
+HDL-1007 : analyze included file ../../rtl/sd/../QHMU_DEFINES.vh in ../../rtl/sd/QHMU_FAT32_READER.v(1)
+HDL-1007 : back to file '../../rtl/sd/QHMU_FAT32_READER.v' in ../../rtl/sd/QHMU_FAT32_READER.v(1)
+HDL-1007 : analyze verilog file ../../rtl/sd/QHMU_SD_BLOCK_IF.v
+HDL-1007 : analyze verilog file ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2614)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2716)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2724)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(4936)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(5989)
+HDL-1007 : back to file '../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(77)
+HDL-1007 : analyze verilog file ../../rtl/vendor/sd_card_cmd.v
+HDL-1007 : analyze verilog file ../../rtl/vendor/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file ../../rtl/vendor/sd_card_top.v
+HDL-1007 : analyze verilog file ../../rtl/vendor/sdr_as_ram.enc.v
+HDL-1007 : analyze included file ../../rtl/vendor/global_def.v in ../../rtl/vendor/sdr_as_ram.enc.v(3)
+HDL-1007 : back to file '../../rtl/vendor/sdr_as_ram.enc.v' in ../../rtl/vendor/sdr_as_ram.enc.v(3)
+HDL-1007 : back to file '../../rtl/vendor/sdr_as_ram.enc.v' in ../../rtl/vendor/sdr_as_ram.enc.v(46)
+HDL-1007 : analyze verilog file ../../rtl/vendor/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ../../rtl/vendor/global_def.v in ../../rtl/vendor/sdr_init_ref.enc.v(3)
+HDL-1007 : back to file '../../rtl/vendor/sdr_init_ref.enc.v' in ../../rtl/vendor/sdr_init_ref.enc.v(3)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../rtl/vendor/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file '../../rtl/vendor/sdr_init_ref.enc.v' in ../../rtl/vendor/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file ../../rtl/vendor/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file '../../rtl/vendor/sdr_wrrd.enc.v' in ../../rtl/vendor/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file ../../rtl/vendor/spi_master.v
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_AUDIO_VIS.v
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_COLOR_ADJUST.v
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_OSD_COMPOSITOR.v
+HDL-1007 : analyze included file ../../rtl/video/../QHMU_DEFINES.vh in ../../rtl/video/QHMU_OSD_COMPOSITOR.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_OSD_COMPOSITOR.v' in ../../rtl/video/QHMU_OSD_COMPOSITOR.v(1)
+HDL-1007 : analyze included file ../../rtl/video/./QHMU_FONT24_STATUS.v in ../../rtl/video/QHMU_OSD_COMPOSITOR.v(2)
+HDL-1007 : back to file '../../rtl/video/QHMU_OSD_COMPOSITOR.v' in ../../rtl/video/QHMU_OSD_COMPOSITOR.v(2)
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_TRANSITION_CTRL.v
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_VIDEO_STREAMER.v
+HDL-1007 : analyze included file ../../rtl/video/../QHMU_DEFINES.vh in ../../rtl/video/QHMU_VIDEO_STREAMER.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_VIDEO_STREAMER.v' in ../../rtl/video/QHMU_VIDEO_STREAMER.v(1)
+HDL-1007 : analyze included file ../../rtl/video/QHMU_ASPECT_FIT.v in ../../rtl/video/QHMU_VIDEO_STREAMER.v(2)
+HDL-1007 : analyze included file ../../rtl/video/../QHMU_DEFINES.vh in ../../rtl/video/QHMU_ASPECT_FIT.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_ASPECT_FIT.v' in ../../rtl/video/QHMU_ASPECT_FIT.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_VIDEO_STREAMER.v' in ../../rtl/video/QHMU_VIDEO_STREAMER.v(2)
+HDL-1007 : analyze verilog file ../../rtl/video/QHMU_VIDEO_TRANSITION.v
+HDL-1007 : analyze included file ../../rtl/video/../QHMU_DEFINES.vh in ../../rtl/video/QHMU_VIDEO_TRANSITION.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_VIDEO_TRANSITION.v' in ../../rtl/video/QHMU_VIDEO_TRANSITION.v(1)
+HDL-1007 : analyze verilog file ../../rtl/QHMU_HDMI_TOP.v
+HDL-1007 : analyze included file ../../rtl/QHMU_DEFINES.vh in ../../rtl/QHMU_HDMI_TOP.v(1)
+HDL-1007 : back to file '../../rtl/QHMU_HDMI_TOP.v' in ../../rtl/QHMU_HDMI_TOP.v(1)
+HDL-1007 : analyze included file ../../rtl/sd/QHMU_BMP_LOADER.v in ../../rtl/QHMU_HDMI_TOP.v(2)
+HDL-1007 : analyze included file ../../rtl/sd/../QHMU_DEFINES.vh in ../../rtl/sd/QHMU_BMP_LOADER.v(1)
+HDL-1007 : back to file '../../rtl/sd/QHMU_BMP_LOADER.v' in ../../rtl/sd/QHMU_BMP_LOADER.v(1)
+HDL-1007 : back to file '../../rtl/QHMU_HDMI_TOP.v' in ../../rtl/QHMU_HDMI_TOP.v(2)
+HDL-1007 : analyze included file ../../rtl/video/QHMU_SUBTITLE_PLAYER.v in ../../rtl/QHMU_HDMI_TOP.v(3)
+HDL-1007 : analyze included file ../../rtl/video/../QHMU_DEFINES.vh in ../../rtl/video/QHMU_SUBTITLE_PLAYER.v(1)
+HDL-1007 : back to file '../../rtl/video/QHMU_SUBTITLE_PLAYER.v' in ../../rtl/video/QHMU_SUBTITLE_PLAYER.v(1)
+HDL-1007 : back to file '../../rtl/QHMU_HDMI_TOP.v' in ../../rtl/QHMU_HDMI_TOP.v(3)
+HDL-1007 : analyze included file ../../rtl/net/QHMU_NET_APP.v in ../../rtl/QHMU_HDMI_TOP.v(4)
+HDL-1007 : back to file '../../rtl/QHMU_HDMI_TOP.v' in ../../rtl/QHMU_HDMI_TOP.v(4)
+HDL-1007 : analyze included file ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v in ../../rtl/QHMU_HDMI_TOP.v(5)
+HDL-1007 : back to file '../../rtl/QHMU_HDMI_TOP.v' in ../../rtl/QHMU_HDMI_TOP.v(5)
+PRJ-1401 : Successfully analyzed 60 source files.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top QHMU_HDMI_TOP"
+HDL-1007 : elaborate module QHMU_HDMI_TOP in ../../rtl/QHMU_HDMI_TOP.v(35)
+HDL-1007 : elaborate module QHMU_CLOCK_RESET in ../../rtl/clock/QHMU_CLOCK_RESET.v(1)
+HDL-1007 : elaborate module QHMU_HDMI_PLL in ../../rtl/clock/QHMU_HDMI_PLL.v(14)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",REFCLK_DIV=7,FBCLK_DIV=52,CLKC0_DIV=5,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=4,CLKC1_CPHASE=0,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module QHMU_SDRAM_PLL in ../../rtl/clock/QHMU_SDRAM_PLL.v(6)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",REFCLK_DIV=4,CLKC0_DIV=84,CLKC1_DIV=7,CLKC2_DIV=7,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC2_FPHASE=4,CLKC0_CPHASE=83,CLKC1_CPHASE=6,CLKC2_CPHASE=2,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module QHMU_RESET_SYNC in ../../rtl/common/QHMU_RESET_SYNC.v(1)
+HDL-1007 : elaborate module QHMU_USER_CONTROL in ../../rtl/control/QHMU_USER_CONTROL.v(11)
+HDL-1007 : elaborate module QHMU_DEBOUNCE in ../../rtl/common/QHMU_DEBOUNCE.v(1)
+HDL-1007 : elaborate module QHMU_SD_BLOCK_IF in ../../rtl/sd/QHMU_SD_BLOCK_IF.v(3)
+HDL-1007 : elaborate module sd_card_top(SPI_HIGH_SPEED_DIV=2) in ../../rtl/vendor/sd_card_top.v(1)
+HDL-1007 : elaborate module sd_card_sec_read_write(SPI_HIGH_SPEED_DIV=2) in ../../rtl/vendor/sd_card_sec_read_write.v(1)
+HDL-1007 : elaborate module sd_card_cmd in ../../rtl/vendor/sd_card_cmd.v(1)
+HDL-1007 : elaborate module spi_master in ../../rtl/vendor/spi_master.v(1)
+HDL-1007 : elaborate module QHMU_FAT32_READER in ../../rtl/sd/QHMU_FAT32_READER.v(28)
+HDL-1007 : extracting RAM for identifier 'image_cluster' in ../../rtl/sd/QHMU_FAT32_READER.v(139)
+HDL-1007 : extracting RAM for identifier 'image_bytes' in ../../rtl/sd/QHMU_FAT32_READER.v(140)
+HDL-1007 : extracting RAM for identifier 'audio_cluster' in ../../rtl/sd/QHMU_FAT32_READER.v(141)
+HDL-1007 : extracting RAM for identifier 'audio_bytes' in ../../rtl/sd/QHMU_FAT32_READER.v(142)
+HDL-1007 : extracting RAM for identifier 'music_cluster' in ../../rtl/sd/QHMU_FAT32_READER.v(143)
+HDL-1007 : extracting RAM for identifier 'music_bytes' in ../../rtl/sd/QHMU_FAT32_READER.v(144)
+HDL-1007 : elaborate module QHMU_BMP_LOADER in ../../rtl/sd/QHMU_BMP_LOADER.v(10)
+HDL-1007 : elaborate module QHMU_ASYNC_FIFO(DATA_WIDTH=57,ADDR_WIDTH=8) in ../../rtl/common/QHMU_ASYNC_FIFO.v(4)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../rtl/common/QHMU_ASYNC_FIFO.v(24)
+HDL-1007 : elaborate module QHMU_IMAGE_MANAGER in ../../rtl/control/QHMU_IMAGE_MANAGER.v(12)
+HDL-1007 : elaborate module QHMU_AUDIO_MANAGER in ../../rtl/audio/QHMU_AUDIO_MANAGER.v(17)
+HDL-1007 : elaborate module QHMU_CDC_MAILBOX(WIDTH=45) in ../../rtl/common/QHMU_CDC_MAILBOX.v(3)
+HDL-1007 : elaborate module QHMU_SDRAM_ARB in ../../rtl/memory/QHMU_SDRAM_ARB.v(16)
+HDL-1007 : elaborate module QHMU_SDRAM_WRAPPER in ../../rtl/memory/QHMU_SDRAM_WRAPPER.v(1)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in ../../rtl/vendor/sdr_as_ram.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in ../../rtl/vendor/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../rtl/vendor/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(683)
+HDL-1007 : elaborate module QHMU_SYNC_BUS in ../../rtl/common/QHMU_SYNC_BUS.v(1)
+HDL-1007 : elaborate module QHMU_DPRAM_DC in ../../rtl/common/QHMU_DPRAM_DC.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../rtl/common/QHMU_DPRAM_DC.v(16)
+HDL-1007 : elaborate module QHMU_SYNC_BUS(WIDTH=45) in ../../rtl/common/QHMU_SYNC_BUS.v(1)
+HDL-1007 : elaborate module QHMU_SYNC_BUS(WIDTH=35) in ../../rtl/common/QHMU_SYNC_BUS.v(1)
+HDL-1007 : elaborate module QHMU_PULSE_SYNC in ../../rtl/common/QHMU_PULSE_SYNC.v(3)
+HDL-1007 : elaborate module QHMU_VIDEO_STREAMER in ../../rtl/video/QHMU_VIDEO_STREAMER.v(18)
+HDL-1007 : elaborate module QHMU_ASPECT_FIT in ../../rtl/video/QHMU_ASPECT_FIT.v(19)
+HDL-1007 : elaborate module QHMU_TRANSITION_CTRL in ../../rtl/video/QHMU_TRANSITION_CTRL.v(1)
+HDL-1007 : elaborate module QHMU_VIDEO_TRANSITION in ../../rtl/video/QHMU_VIDEO_TRANSITION.v(13)
+HDL-1007 : elaborate module QHMU_COLOR_ADJUST in ../../rtl/video/QHMU_COLOR_ADJUST.v(6)
+HDL-1007 : elaborate module QHMU_WAV_PLAYER(PIXEL_HZ=74285714) in ../../rtl/audio/QHMU_WAV_PLAYER.v(14)
+HDL-1007 : elaborate module QHMU_AUDIO_FIFO in ../../rtl/audio/QHMU_AUDIO_FIFO.v(10)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../rtl/audio/QHMU_AUDIO_FIFO.v(32)
+HDL-1007 : elaborate module QHMU_HDMI_ACR in ../../rtl/audio/QHMU_HDMI_ACR.v(1)
+HDL-1007 : elaborate module QHMU_AUDIO_VIS in ../../rtl/video/QHMU_AUDIO_VIS.v(6)
+HDL-1007 : elaborate module QHMU_SUBTITLE_PLAYER in ../../rtl/video/QHMU_SUBTITLE_PLAYER.v(24)
+HDL-1007 : elaborate module QHMU_DPRAM_DC(DATA_WIDTH=16,ADDR_WIDTH=11) in ../../rtl/common/QHMU_DPRAM_DC.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../rtl/common/QHMU_DPRAM_DC.v(16)
+HDL-1007 : elaborate module QHMU_SYNC_BUS(WIDTH=9) in ../../rtl/common/QHMU_SYNC_BUS.v(1)
+HDL-1007 : elaborate module QHMU_SYNC_BUS(WIDTH=8) in ../../rtl/common/QHMU_SYNC_BUS.v(1)
+HDL-1007 : elaborate module QHMU_OSD_COMPOSITOR in ../../rtl/video/QHMU_OSD_COMPOSITOR.v(7)
+HDL-1007 : elaborate module QHMU_FONT24_STATUS in ../../rtl/video/./QHMU_FONT24_STATUS.v(7)
+HDL-1007 : extracting RAM for identifier 'font_mem' in ../../rtl/video/./QHMU_FONT24_STATUS.v(28)
+HDL-1007 : elaborate module QHMU_HDMI_TX in ../../rtl/hdmi/QHMU_HDMI_TX.v(15)
+HDL-1007 : elaborate module hdmi_1_4b_transmitter_core_wrapper(VIDEO_TPG="Disable",VIDEO_VIC=34,IIC_SCL_DIV=93) in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(91)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(137)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(208)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(285)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(396)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(803)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(1338)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(1480)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2012)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2733)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2403)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2842)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(2939)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3138)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3177)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3511)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3666)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3730)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3860)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3949)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(4034)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(4127)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(4285)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(4586)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=96,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(5534)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(5657)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6273)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6501)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6575)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6924)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in ../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module QHMU_HDMI_PHY in ../../rtl/hdmi/QHMU_HDMI_PHY.v(5)
+HDL-1007 : elaborate module QHMU_TMDS_SERIALIZER in ../../rtl/hdmi/QHMU_TMDS_SERIALIZER.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module QHMU_SEG7_DRIVER in ../../rtl/display/QHMU_SEG7_DRIVER.v(3)
+HDL-1007 : port 'tri_speed' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_awready' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_wready' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_bresp' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_bvalid' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_arready' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_rdata' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_rresp' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : port 's_axi_rvalid' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : elaborate module QHMU_RGMII_TEMAC_UDP in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(21)
+HDL-1007 : elaborate module pll_gen in ../../rtl/net/anlogic_official/pll_gen.v(26)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",REFCLK_DIV=2,FBCLK_DIV=5,CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=80,CLKC3_DIV=40,CLKC4_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=79,CLKC3_CPHASE=39,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module rx_pll in ../../rtl/net/anlogic_official/rx_pll.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="125.000",CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=4,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=6,GMC_TEST=15,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module div_clk_gen in ../../rtl/net/anlogic_official/div_clk_gen.v(31)
+HDL-1007 : elaborate module udp_clk_gen in ../../rtl/net/anlogic_official/temac_clk_gen.v(30)
+HDL-1007 : elaborate module temac_block in ../../rtl/net/anlogic_official/temac_block.v(2)
+HDL-1007 : elaborate module tx_clk_en_gen in ../../rtl/net/anlogic_official/tx_clk_en_gen.v(16)
+HDL-1007 : elaborate module rgmii_interface in ../../rtl/net/anlogic_official/rgmii_interface.v(14)
+HDL-1007 : elaborate module ODDR in ../../rtl/net/anlogic_official/ODDR.v(23)
+HDL-1007 : elaborate module IDDR in ../../rtl/net/anlogic_official/IDDR.v(23)
+HDL-1007 : elaborate module EG_LOGIC_IDDR in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(57)
+HDL-1007 : elaborate module TEMAC_CORE(P_HALF_DUPLEX=1'b1) in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01110,EQN="(~C*~(~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_DFF_0 in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(243)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b01,EQN="(~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b010,EQN="(~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01,EQN="(~D*~C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000000000000000000000000000,EQN="(E*D*C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110000111100000100000011000000,EQN="(C*~(~E*~(B*~(D*A))))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000,EQN="(~D*C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1000,EQN="(B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_DFF_X in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(277)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000,EQN="(D*~C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010011000000,EQN="(B*(~(A)*C*~(D)+A*C*~(D)+~(A)*~(C)*D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010100010100000,EQN="(A*(C@(D*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010100000001010101000000000,EQN="(A*(D@(E*C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01001000,EQN="(B*(C@A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000000000,EQN="(D*C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100110010000000,EQN="(B*(D@(C*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000000,EQN="(C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000010000000,EQN="(C*~(~D*~(B*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100100001000000,EQN="(B*(C*~(D)*~(A)+C*D*~(A)+~(C)*D*A+C*D*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000,EQN="(D*~C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110010111100001111000011110000,EQN="~(~C*~(E*D*~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101000011110000,EQN="(C*~(D*~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11111110,EQN="~(~C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000,EQN="(~D*~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01100110011101100,EQN="(~E*~(~B*~(~D*C*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101011111011,EQN="~(~A*~(~D*~(~C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010001010000000,EQN="(A*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101110111011001110111011101110,EQN="~(~B*~(A*~(E*~D*~C)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01010110011101,EQN="(~(A)*~(B)*~(C)*~(D)+~(A)*B*~(C)*~(D)+A*B*~(C)*~(D)+~(A)*~(B)*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+~(A)*B*~(C)*D+~(A)*~(B)*C*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010011000100010001001000010000,EQN="(~B*(~(A)*C*~(D)*~(E)+A*~(C)*D*~(E)+~(A)*C*D*~(E)+~(A)*~(C)*~(D)*E+~(A)*C*~(D)*E+~(A)*~(C)*D*E+A*~(C)*D*E+~(A)*C*D*E))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010110011101101101011011110110,EQN="(A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+A*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+A*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+~(A)*~(B)*C*D*E+~(A)*B*C*D*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01101,EQN="(~C*~(~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001010100000100000101000000010,EQN="(A*(~(B)*~(C)*~(D)*~(E)+~(B)*~(C)*D*~(E)+B*~(C)*D*~(E)+~(B)*~(C)*~(D)*E+B*C*~(D)*E+~(B)*~(C)*D*E+B*~(C)*D*E+B*C*D*E))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01001100010001000100100001000000,EQN="(B*(~(A)*C*~(D)*~(E)+A*~(C)*D*~(E)+~(A)*C*D*~(E)+~(A)*~(C)*~(D)*E+~(A)*C*~(D)*E+~(A)*~(C)*D*E+A*~(C)*D*E+~(A)*C*D*E))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101011111110,EQN="~(~A*~(~D*~(~C*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010100000100000,EQN="(A*(C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101001100001111,EQN="(~(A)*~(B)*~(C)*~(D)+A*~(B)*~(C)*~(D)+~(A)*B*~(C)*~(D)+A*B*~(C)*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*~(B)*C*D+~(A)*B*C*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111110101100,EQN="(~(A)*B*~(C)*~(D)+A*B*~(C)*~(D)+A*~(B)*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*B*~(C)*D+A*B*~(C)*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010101111111011101110,EQN="~(~A*~(~E*~(~B*~(D*C))))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100110011111110,EQN="~(~B*~(~D*~(~C*~A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001001101010111100110111101111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+A*B*~(C)*~(D)*E+A*~(B)*C*~(D)*E+A*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*B*~(C)*D*E+A*B*C*D*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101000000001111110100000000,EQN="(D*~((~B*A)*~(E)*~(C)+(~B*A)*E*~(C)+~((~B*A))*E*C+(~B*A)*E*C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100000,EQN="(C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0100,EQN="(B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001100110011001101110111001111,EQN="~(~B*~(~E*~(C*~(A)*~(D)+C*A*~(D)+~(C)*A*D+C*A*D)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01001011011010111100101111101011,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+A*~(B)*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+A*B*~(C)*~(D)*E+A*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+A*B*~(C)*D*E+~(A)*B*C*D*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010011010101111001101111011111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+A*~(B)*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*~(B)*C*D*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101110111000001110111011100010,EQN="(A*~(B)*~((~D*~C))*~(E)+~(A)*B*~((~D*~C))*~(E)+A*B*~((~D*~C))*~(E)+A*~(B)*(~D*~C)*~(E)+A*~(B)*~((~D*~C))*E+~(A)*B*~((~D*~C))*E+A*B*~((~D*~C))*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0111010,EQN="~(~A*~(B)*~(C)+~A*B*~(C)+~(~A)*B*C+~A*B*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101110100000,EQN="(A*~(B)*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+A*B*~(C)*D+~(A)*~(B)*C*D+A*~(B)*C*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010111110001000,EQN="(A*B*~(C)*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*B*~(C)*D+A*B*~(C)*D+A*~(B)*C*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100000010000000,EQN="(C*B*~(~D*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101000101010101010101010,EQN="(A*~(E*~D*~C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101111101011111000100000000000,EQN="(A*~(C)*(D*B)*~(E)+A*C*(D*B)*~(E)+~(A)*~(C)*~((D*B))*E+A*~(C)*~((D*B))*E+A*C*~((D*B))*E+~(A)*~(C)*(D*B)*E+A*~(C)*(D*B)*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11000100,EQN="(B*~(~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_DFF_1 in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(260)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10101100,EQN="(B*~(A)*~(C)+B*A*~(C)+~(B)*A*C+B*A*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101111111111111,EQN="~(D*C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010100000000000101010100000000,EQN="(D*~A*~(E*~C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010101011111111,EQN="(~E*~(D*~(A*~(C*B))))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111011111110111111101010101,EQN="~(A*~(~(~E*~D)*~(C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010101000000,EQN="(~A*~(~D*~(C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000000,EQN="(C*B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000101010101010,EQN="(A*~(D*C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0110010,EQN="(~B*~(~C*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101011000000,EQN="(~E*(~(A)*B*C*~(D)+A*B*C*~(D)+A*~(B)*~(C)*D+A*B*~(C)*D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111111110000000011111101,EQN="(~D*~(~E*~C*~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010000000000110000,EQN="(~D*(~(A)*~(B)*C*~(E)+A*~(B)*C*~(E)+~(A)*~(B)*~(C)*E+~(A)*B*~(C)*E))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111111001111010100001111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+A*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100010001110100,EQN="~(~(~D*C)*~(A)*~(B)+~(~D*C)*A*~(B)+~(~(~D*C))*A*B+~(~D*C)*A*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110011111000101101000111000000,EQN="((D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*~(C)*~(B)+(D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*C*~(B)+~((D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A))*C*B+(D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*C*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000000,EQN="(D*~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000000000000000000000,EQN="(E*D*C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01110000,EQN="(C*~(B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0111,EQN="(~C*~(B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01111111,EQN="(~D*~(C*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010,EQN="(~C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD_CARRY") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB_CARRY") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000,EQN="(~D*C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000000000,EQN="(D*C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01,EQN="(~C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000000,EQN="(D*C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011000100,EQN="(~D*B*~(~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101110100001100,EQN="~(~(~C*B)*~(D*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0110,EQN="(B@A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110101111001001011000110100000,EQN="((D*~(E)*~(B)+D*E*~(B)+~(D)*E*B+D*E*B)*~(C)*~(A)+(D*~(E)*~(B)+D*E*~(B)+~(D)*E*B+D*E*B)*C*~(A)+~((D*~(E)*~(B)+D*E*~(B)+~(D)*E*B+D*E*B))*C*A+(D*~(E)*~(B)+D*E*~(B)+~(D)*E*B+D*E*B)*C*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11011000,EQN="(C*~(B)*~(A)+C*B*~(A)+~(C)*B*A+C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01010001,EQN="(~A*~(~C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010101010000000000010101,EQN="(~D*~A*~(~E*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111101001100011101110100010001,EQN="(~(A*~(E*C))*~(D)*~(B)+~(A*~(E*C))*D*~(B)+~(~(A*~(E*C)))*D*B+~(A*~(E*C))*D*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011011000,EQN="(~D*(C*~(B)*~(A)+C*B*~(A)+~(C)*B*A+C*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010,EQN="(~D*~C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000011111000,EQN="~(~C*~(~D*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100000,EQN="(C*~(~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000000000,EQN="(D*C*B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000,EQN="(~E*~D*~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01011100,EQN="~(~B*~(A)*~(C)+~B*A*~(C)+~(~B)*A*C+~B*A*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01101100,EQN="(B@(C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10010110,EQN="(C@B@A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001011011110000,EQN="(C@(D*(B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100110010110,EQN="(D@C@B@A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001100101101111111100000000,EQN="(D@(E*(C@B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100111110000,EQN="(C@(D*~(B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10011100,EQN="(B@(C*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100111001100,EQN="(B@(D*~(C@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110011011110000,EQN="(C*~((B@A))*~(D)+C*(B@A)*~(D)+~(C)*(B@A)*D+C*(B@A)*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001100111110000,EQN="~(~C*~((B@A))*~(D)+~C*(B@A)*~(D)+~(~C)*(B@A)*D+~C*(B@A)*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10010110100101101111111100000000,EQN="(D*~((C@B@A))*~(E)+D*(C@B@A)*~(E)+~(D)*(C@B@A)*E+D*(C@B@A)*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001011001101001,EQN="~(D@C@B@A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001011000000000,EQN="(D*(C@B@A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011111110,EQN="(~D*~(~C*~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000001,EQN="(~B*~A*~(D@C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111101110000000000000000,EQN="(E*~(~D*~C*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101010,EQN="(~D*~(~A*~(C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1110,EQN="~(~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010100010101,EQN="(~A*~(~D*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011100000101,EQN="(~C*~(A*~(D*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000101011001111,EQN="(~(C*~B)*~(D*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111010101110110000000000000000,EQN="(E*~(~A*~(~B*~(D*~C))))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111101111111010,EQN="(~E*~(~C*~A*~(D*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01010100,EQN="(~A*~(~C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000000,EQN="(D*~C*B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000000000000000,EQN="(E*~D*~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01100000000000000110010,EQN="(~D*~B*~(~C*~(~E*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000,EQN="(~E*~D*C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1110111011101100,EQN="~(~B*~(A*~(~D*~C)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010001110100000,EQN="((D*~B)*~(A)*~(C)+(D*~B)*A*~(C)+~((D*~B))*A*C+(D*~B)*A*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101010101110,EQN="~(~A*~(~D*~C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011100100,EQN="(~D*(B*~(C)*~(A)+B*C*~(A)+~(B)*C*A+B*C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101010001010,EQN="(A*~(~D*C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001100110011101100111011001110,EQN="~(~B*~(~C*A*~(E*D)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100000011100010,EQN="((~D*A)*~(C)*~(B)+(~D*A)*C*~(B)+~((~D*A))*C*B+(~D*A)*C*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111011101110,EQN="(~(D*C)*~(~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101000001000100,EQN="(~A*(B*~(C)*~(D)+B*C*~(D)+~(B)*C*D+B*C*D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000100001000010000000000000000,EQN="(E*~(D@B)*~(C@A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000100011111000,EQN="(~E*~(~(~D*C)*~(B*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000010000100001,EQN="(~(D@B)*~(C@A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000010,EQN="(A*~(C@B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000000000000000,EQN="(E*~D*C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111101111101010,EQN="~(~A*~(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010,EQN="(~E*~D*~C*~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001000100010001000100011011000,EQN="((~E*~D*C)*~(B)*~(A)+(~E*~D*C)*B*~(A)+~((~E*~D*C))*B*A+(~E*~D*C)*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101111110000000,EQN="(~E*(D*~(B)*~((C*A))+D*B*~((C*A))+~(D)*B*(C*A)+D*B*(C*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010,EQN="(~D*A*~(C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101111101011100,EQN="~((~D*~B)*~(A)*~(C)+(~D*~B)*A*~(C)+~((~D*~B))*A*C+(~D*~B)*A*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000100000001011001110000000,EQN="((~E*D)*~((C*A))*~(B)+(~E*D)*(C*A)*~(B)+~((~E*D))*(C*A)*B+(~E*D)*(C*A)*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="A_LE_B") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="A_LE_B_CARRY") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000,EQN="(~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11001110,EQN="~(~B*~(~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011001000,EQN="(~D*B*~(~C*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01100001011,EQN="(~C*~(B*~(~D*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100,EQN="(~C*B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100011110000000000000000,EQN="(E*~D*~(C*~(B*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111010111110101110101011111010,EQN="~(~A*~(C*~(~E*D*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101111,EQN="(~D*~(C*~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01111110,EQN="(A*~(B)*~(C)+~(A)*B*~(C)+A*B*~(C)+~(A)*~(B)*C+A*~(B)*C+~(A)*B*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010001000100000,EQN="(~B*A*~(~D*~C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000011110000111100001110,EQN="(~C*~(~E*~D*~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1101,EQN="~(~B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010000000000010001000,EQN="(~D*A*~(~B*~(E*C)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000110011000000100000001000,EQN="(B*~(~(E*~D)*~(~C*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000100010100000,EQN="(A*(C*~(B)*~(D)+C*B*~(D)+~(C)*B*D+C*B*D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01110010,EQN="(~D*~(~C*~(B)*~(A)+~C*B*~(A)+~(~C)*B*A+~C*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011100000000000001100,EQN="(~D*~C*~(~B*~(E*A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT1(INIT=2'b01,EQN="(~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(60)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100010,EQN="(A*~(C)*~(B)+A*C*~(B)+~(A)*C*B+A*C*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101110111011000,EQN="(~(~D*~C)*~(B)*~(A)+~(~D*~C)*B*~(A)+~(~(~D*~C))*B*A+~(~D*~C)*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10101110,EQN="~(~A*~(~C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100000000,EQN="(D*~C*~(~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11101010,EQN="~(~A*~(C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000111110001,EQN="~(~(~D*C)*~(~B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100110011001110,EQN="~(~B*~(~D*~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10110011101000001010000010100000,EQN="~(~(E*D*~B)*~(C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01110100,EQN="~(~C*~(A)*~(B)+~C*A*~(B)+~(~C)*A*B+~C*A*B)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01111000,EQN="(C@(B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001111111111001011000000000,EQN="(E@(D*(C@B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110111110010000,EQN="(D@(C*~(B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001111101100000,EQN="(D@(C*(B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111100011010010,EQN="(C@(A*~(D@B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10110100,EQN="(C@(B*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110111101100000,EQN="(D*~((B@A))*~(C)+D*(B@A)*~(C)+~(D)*(B@A)*C+D*(B@A)*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111011100001001011011101001000,EQN="(D@(B*(E@C@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001111110010000,EQN="~(~D*~((B@A))*~(C)+~D*(B@A)*~(C)+~(~D)*(B@A)*C+~D*(B@A)*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10010110111111111001011000000000,EQN="(E*~((C@B@A))*~(D)+E*(C@B@A)*~(D)+~(E)*(C@B@A)*D+E*(C@B@A)*D)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10011111011000000110111110010000,EQN="(D@(C*~(E@B@A)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0111,EQN="~(B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11010111,EQN="~(A*(C@B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100100,EQN="(B*~(C)*~(A)+B*C*~(A)+~(B)*C*A+B*C*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101100001000,EQN="(~C*(D*~(A)*~(B)+D*A*~(B)+~(D)*A*B+D*A*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01011000010000000111100000000,EQN="(~C*(D*~(A)*~((E*B))+D*A*~((E*B))+~(D)*A*(E*B)+D*A*(E*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011001000010000,EQN="(~B*(C*~(D)*~(A)+C*D*~(A)+~(C)*D*A+C*D*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100010001000000,EQN="(B*~A*~(~D*~C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011100001111,EQN="(~C*~(D*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01011101,EQN="(~D*~(A*~(~C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11011101100010001101100011011000,EQN="((C*~(D)*~(E)+C*D*~(E)+~(C)*D*E+C*D*E)*~(B)*~(A)+(C*~(D)*~(E)+C*D*~(E)+~(C)*D*E+C*D*E)*B*~(A)+~((C*~(D)*~(E)+C*D*~(E)+~(C)*D*E+C*D*E))*B*A+(C*~(D)*~(E)+C*D*~(E)+~(C)*D*E+C*D*E)*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110101001100011111111100110011,EQN="(~(~D*B)*~(E*~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01011101010101011101110101010101,EQN="~(A*~(D*B*~(E*C)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10111010,EQN="~(~A*~(C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111110101110100101010000010000,EQN="((C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B)*~(E)*~(A)+(C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B)*E*~(A)+~((C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B))*E*A+(C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B)*E*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11110111,EQN="~(~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000000000000000,EQN="(E*D*~C*B*A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111101011111111111110100,EQN="~(~D*~C*~(~A*~(~E*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111100110011001010100010001000,EQN="(~(~(D*C)*~B)*~(~E*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101100001010,EQN="~(~(D*~B)*~(~C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101010101000,EQN="(A*~(~D*~C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000000010,EQN="(A*(~(B)*~(C)*~(D)+B*C*D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101010101010101010101010101010,EQN="~(~A*~(E*D*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111000000000000111100000000,EQN="(D*~C*~(E*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010011,EQN="(~B*~(C*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11000101,EQN="(~A*~(B)*~(C)+~A*B*~(C)+~(~A)*B*C+~A*B*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11110010,EQN="~(~C*~(~B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111110101010111,EQN="~(A*~(D@(~C*~B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101010111010,EQN="~(~A*~(~D*C*~B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000011110100010000000000,EQN="~(~(D*B*~A)*~(C)*~(E)+~(D*B*~A)*C*~(E)+~(~(D*B*~A))*C*E+~(D*B*~A)*C*E)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010000,EQN="(C*~B*~A)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010111000001100,EQN="~(~(~C*B)*~(D*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011010100110000,EQN="~(~(D*~A)*~(B)*~(C)+~(D*~A)*B*~(C)+~(~(D*~A))*B*C+~(D*~A)*B*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101000101000000,EQN="(~A*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101011001010110010101100100010,EQN="(A*~(B)*~((~(~E*~D)*~C))+~(A)*~(B)*(~(~E*~D)*~C)+A*~(B)*(~(~E*~D)*~C)+A*B*(~(~E*~D)*~C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010100,EQN="(~A*(C@B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01010101000000,EQN="(~A*(D@(C*B)))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100100000110010,EQN="(~(D@B)*~(~C*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000000000000000000010000000,EQN="(C*B*A*~(E@D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100001000,EQN="(~C*(D*~(B)*~(A)+D*B*~(A)+~(D)*B*A+D*B*A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101110111011101110011111101110,EQN="(A*~(B)*~((~E*D*~C))+~(A)*B*~((~E*D*~C))+A*B*~((~E*D*~C))+~(A)*~(B)*(~E*D*~C)+A*~(B)*(~E*D*~C)+~(A)*B*(~E*D*~C))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01100000010,EQN="(~C*~B*~(~D*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000000000000000100000,EQN="(C*~B*A*~(E@D))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100001,EQN="(~A*~B*~C+A*~B*C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0110,EQN="(A*~B*~C+~A*B*~C)") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010000010000,EQN="(~A*(C*~(D)*~(B)+C*D*~(B)+~(C)*D*B+C*D*B))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100001110000010,EQN="(~(C@B)*~(~D*~A))") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(24)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3739)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(3970)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7364)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7474)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(7584)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12057)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12735)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(12866)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../rtl/net/anlogic_official/TEMAC_CORE_gate.v(14456)
+HDL-1007 : elaborate module tx_client_fifo in ../../rtl/net/anlogic_official/tx_client_fifo.v(14)
+HDL-1007 : elaborate module RAMB16_S9_S9 in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(4)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_B=9,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_A="WRITETHROUGH",WRITEMODE_B="WRITETHROUGH") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1293)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1303)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1315)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/tx_client_fifo.v(1325)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/tx_client_fifo.v(1291)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/tx_client_fifo.v(1312)
+HDL-1007 : elaborate module rx_client_fifo in ../../rtl/net/anlogic_official/rx_client_fifo.v(14)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/rx_client_fifo.v(873)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/rx_client_fifo.v(883)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../rtl/net/anlogic_official/rx_client_fifo.v(894)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../rtl/net/anlogic_official/rx_client_fifo.v(904)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/rx_client_fifo.v(871)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../rtl/net/anlogic_official/rx_client_fifo.v(892)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : elaborate module udp_ip_protocol_stack(LOCAL_UDP_PORT_NUM=16'b01001110001001,LOCAL_IP_ADDRESS=32'b11000000101010001111000000000010,LOCAL_MAC_ADDRESS=48'b010010001101000101011001111000100110101000000011) in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3861)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(4077)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3963)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : port '**' remains unconnected for this instance in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1172)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2405)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2482)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW",RESETMODE="ASYNC") in E:\ElectSoftware\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2666)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(2671)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3068)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1601)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(909)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1374)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1079)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(713)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(26)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(436)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(223)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(1920)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3190)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3113)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3537)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../rtl/net/anlogic_official/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module QHMU_NET_APP in ../../rtl/net/QHMU_NET_APP.v(24)
+HDL-5323 WARNING: input port 's_axi_aclk' remains unconnected for this instance in ../../rtl/net/QHMU_RGMII_TEMAC_UDP.v(220)
+HDL-1007 : elaborate module QHMU_BUZZER in ../../rtl/display/QHMU_BUZZER.v(2)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is QHMU_HDMI_TOP
+HDL-1100 : Inferred 11 RAMs.
+RUN-1002 : start command "read_adc ../../constraints/QHMU_HDMI_PRO.adc"
+RUN-1002 : start command "set_pin_assignment  I_CLK_50M   LOCATION = R7; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_KEY_N[0]   LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_KEY_N[1]   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_KEY_N[2]   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_KEY_N[3]   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_SW[0]   LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_SW[1]   LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_SW[2]   LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_SW[3]   LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_LED[0]   LOCATION = A4;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_LED[1]   LOCATION = A3;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_LED[2]   LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_LED[3]   LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_BUZZER   LOCATION = H11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[2]   LOCATION = B6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[3]   LOCATION = A5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[4]   LOCATION = B5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[5]   LOCATION = A8;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[6]   LOCATION = A7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SEG[7]   LOCATION = A6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[0]   LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[1]   LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[2]   LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[3]   LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[4]   LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[5]   LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[6]   LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_DIG_SEL[7]   LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SD_CLK   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_SD_CMD   LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_SD_D0   LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  O_SD_D3   LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_HDMI_D2_P   LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_HDMI_D1_P   LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_HDMI_D0_P   LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_HDMI_CLK_P   LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_HDMI_SCL   LOCATION = P1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  IO_HDMI_SDA   LOCATION = R1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_HDMI_HPD   LOCATION = K2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RX_CLK   LOCATION = T14; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RX_CTL   LOCATION = T13; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RXD[0]   LOCATION = P6;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RXD[1]   LOCATION = M6;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RXD[2]   LOCATION = T9;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  I_PHY_RGMII_RXD[3]   LOCATION = N9;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TX_CLK   LOCATION = T12; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; OUTDEL = 3; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TX_CTL   LOCATION = T7;  IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TXD[0]   LOCATION = T4; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TXD[1]   LOCATION = T6; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TXD[2]   LOCATION = M7; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  O_PHY_RGMII_TXD[3]   LOCATION = T8; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc ../../constraints/QHMU_HDMI_PRO.sdc"
+RUN-1002 : start command "export_db QHMU_HDMI_PRO_elaborate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step rtl"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :         Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :        fix_undriven       |     0      |        0         |        
+RUN-1001 :   gated_clock_conversion  |    off     |       off        |        
+RUN-1001 :         infer_fsm         |    auto    |       auto       |        
+RUN-1001 :         infer_gsr         |    off     |       off        |        
+RUN-1001 :         infer_rom         |     on     |        on        |        
+RUN-1001 :       keep_hierarchy      |    auto    |       auto       |        
+RUN-1001 :        merge_equal        |     on     |        on        |        
+RUN-1001 :      min_control_set      |     8      |        8         |        
+RUN-1001 :       min_ripple_len      |    auto    |       auto       |        
+RUN-1001 :          seq_syn          |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------------------
+RUN-1002 : start command "insert_debugger"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file E:/ElectSoftware/Anlogic/TD_6.2.1_Engineer_6.2.168.116/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.007976s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (195.9%); Memory(MB): used = 355, reserved = 463, peak = 355;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 43868, Total nets: 110286.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 1.392499s wall, 1.390625s user + 0.000000s system = 1.390625s CPU (99.9%); Memory(MB): used = 355, reserved = 463, peak = 355;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 11353, Total nets: 74477.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model QHMU_HDMI_TOP
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.236400s wall, 0.234375s user + 0.000000s system = 0.234375s CPU (99.1%); Memory(MB): used = 357, reserved = 463, peak = 357;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 13235, Total nets: 66336.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[7]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[6]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[5]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[4]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[3]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[2]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[1]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_l/dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[0]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 WARNING: Undriven net: model "QHMU_HDMI_TOP" / net "u_net_control/u_rx_client_fifo/ramgen_u/dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45)
+SYN-5013 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.064133s wall, 0.046875s user + 0.015625s system = 0.062500s CPU (97.5%); Memory(MB): used = 317, reserved = 318, peak = 357;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 11444, Total nets: 64503.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'u_bmp_loader/pixel_phase_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_bmp_loader/pixel_phase_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_fat32/state_reg' in module 'QHMU_HDMI_TOP'
+----------------------------------------------------
+     Previous Encoding             New Encoding
+----------------------------------------------------
+                 00000     00000000000000000001
+                 00001     00000000000000000010
+                 00010     00000000000000000100
+                 00011     00000000000000001000
+                 00110     00000000000000010000
+                 00111     00000000000000100000
+                 01000     00000000000001000000
+                 01001     00000000000010000000
+                 10000     00000000000100000000
+                 10001     00000000001000000000
+                 10010     00000000010000000000
+                 10011     00000000100000000000
+                 11111     00000001000000000000
+                 00100     00000010000000000000
+                 00101     00000100000000000000
+                 01010     00001000000000000000
+                 01011     00010000000000000000
+                 10101     00100000000000000000
+                 10100     01000000000000000000
+                 01100     10000000000000000000
+----------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_fat32/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_qhmu_net_app/tx_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_qhmu_net_app/tx_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_rx_client_fifo/rd_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000         00000001
+                   001         00000010
+                   010         00000100
+                   011         00001000
+                   100         00010000
+                   110         00100000
+                   111         01000000
+                   101         10000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_rx_client_fifo/rd_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_rx_client_fifo/wr_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000           000001
+                   001           000010
+                   101           000100
+                   010           001000
+                   100           010000
+                   011           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_rx_client_fifo/wr_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_tx_client_fifo/rd_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000          0000001
+                  0001          0000010
+                  0010          0000100
+                  0011          0001000
+                  0100          0010000
+                  0101          0100000
+                  0110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_tx_client_fifo/rd_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_tx_client_fifo/wr_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    11             0100
+                    10             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_tx_client_fifo/wr_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/arp_layer/arp_receive_module/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00               01
+                    01               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/arp_layer/arp_receive_module/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/arp_layer/arp_receive_module/arp_rx_cnt_reg' in module 'QHMU_HDMI_TOP'
+------------------------------------------------------------
+     Previous Encoding                     New Encoding
+------------------------------------------------------------
+                 00000     0000000000000000000000000001
+                 00001     0000000000000000000000000010
+                 00010     0000000000000000000000000100
+                 00011     0000000000000000000000001000
+                 00100     0000000000000000000000010000
+                 00101     0000000000000000000000100000
+                 00110     0000000000000000000001000000
+                 00111     0000000000000000000010000000
+                 01000     0000000000000000000100000000
+                 01001     0000000000000000001000000000
+                 01010     0000000000000000010000000000
+                 01011     0000000000000000100000000000
+                 01100     0000000000000001000000000000
+                 01101     0000000000000010000000000000
+                 01110     0000000000000100000000000000
+                 01111     0000000000001000000000000000
+                 10000     0000000000010000000000000000
+                 10001     0000000000100000000000000000
+                 10010     0000000001000000000000000000
+                 10011     0000000010000000000000000000
+                 10100     0000000100000000000000000000
+                 10101     0000001000000000000000000000
+                 10110     0000010000000000000000000000
+                 10111     0000100000000000000000000000
+                 11000     0001000000000000000000000000
+                 11001     0010000000000000000000000000
+                 11010     0100000000000000000000000000
+                 11011     1000000000000000000000000000
+------------------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/arp_layer/arp_receive_module/arp_rx_cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/cnt_reg' in module 'QHMU_HDMI_TOP'
+---------------------------------------------------
+     Previous Encoding            New Encoding
+---------------------------------------------------
+                 00000     0000000000000000001
+                 00001     0000000000000000010
+                 00010     0000000000000000100
+                 00011     0000000000000001000
+                 00100     0000000000000010000
+                 00101     0000000000000100000
+                 00110     0000000000001000000
+                 00111     0000000000010000000
+                 01000     0000000000100000000
+                 01001     0000000001000000000
+                 01010     0000000010000000000
+                 01011     0000000100000000000
+                 01100     0000001000000000000
+                 01101     0000010000000000000
+                 01110     0000100000000000000
+                 01111     0001000000000000000
+                 10000     0010000000000000000
+                 10001     0100000000000000000
+                 10010     1000000000000000000
+---------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/checksum_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/checksum_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/cnt_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000        000000001
+                  0001        000000010
+                  0010        000000100
+                  0011        000001000
+                  0100        000010000
+                  0101        000100000
+                  0110        001000000
+                  0111        010000000
+                  1000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/ip_header_checksum_check_module/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_receive_module/ip_header_checksum_check_module/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   100            01000
+                   011            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/cnt_reg' in module 'QHMU_HDMI_TOP'
+----------------------------------------------------
+     Previous Encoding             New Encoding
+----------------------------------------------------
+                 00000     00000000000000000001
+                 00001     00000000000000000010
+                 00010     00000000000000000100
+                 00011     00000000000000001000
+                 00100     00000000000000010000
+                 00101     00000000000000100000
+                 00110     00000000000001000000
+                 00111     00000000000010000000
+                 01000     00000000000100000000
+                 01001     00000000001000000000
+                 01010     00000000010000000000
+                 01011     00000000100000000000
+                 01100     00000001000000000000
+                 01101     00000010000000000000
+                 01110     00000100000000000000
+                 01111     00001000000000000000
+                 10000     00010000000000000000
+                 10001     00100000000000000000
+                 10010     01000000000000000000
+                 10011     10000000000000000000
+----------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/cnt1_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000        000000001
+                  0001        000000010
+                  0010        000000100
+                  0011        000001000
+                  0100        000010000
+                  0101        000100000
+                  0110        001000000
+                  0111        010000000
+                  1000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/cnt1_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/send_buffer/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   011          0000010
+                   100          0000100
+                   010          0001000
+                   001          0010000
+                   101          0100000
+                   110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/send_buffer/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/RX_STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/RX_STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/TX_STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/TX_STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/temac_rx_cnt_reg' in module 'QHMU_HDMI_TOP'
+----------------------------------------------
+     Previous Encoding       New Encoding
+----------------------------------------------
+                  0000     00000000000001
+                  0001     00000000000010
+                  0010     00000000000100
+                  0011     00000000001000
+                  0100     00000000010000
+                  0101     00000000100000
+                  0110     00000001000000
+                  0111     00000010000000
+                  1000     00000100000000
+                  1001     00001000000000
+                  1010     00010000000000
+                  1011     00100000000000
+                  1100     01000000000000
+                  1101     10000000000000
+----------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/temac_rx_cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/temac_tx_cnt_reg' in module 'QHMU_HDMI_TOP'
+-----------------------------------------------
+     Previous Encoding        New Encoding
+-----------------------------------------------
+                  0000     000000000000001
+                  0001     000000000000010
+                  0010     000000000000100
+                  0011     000000000001000
+                  0100     000000000010000
+                  0101     000000000100000
+                  0110     000000001000000
+                  0111     000000010000000
+                  1000     000000100000000
+                  1001     000001000000000
+                  1010     000010000000000
+                  1011     000100000000000
+                  1100     001000000000000
+                  1101     010000000000000
+                  1110     100000000000000
+-----------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/temac_data_process/temac_tx_cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_receive_module/cnt_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000      00000000001
+                  0001      00000000010
+                  0010      00000000100
+                  0011      00000001000
+                  0100      00000010000
+                  0101      00000100000
+                  0110      00001000000
+                  0111      00010000000
+                  1000      00100000000
+                  1001      01000000000
+                  1010      10000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_receive_module/cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_send_module/STATE_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_send_module/STATE_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_send_module/cnt_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000         00000001
+                  0001         00000010
+                  0010         00000100
+                  0011         00001000
+                  0100         00010000
+                  0101         00100000
+                  0110         01000000
+                  0111         10000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_net_control/u_udp_ip_protocol_stack/udp_layer/udp_send_module/cnt_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_osd/u_font/byte_group_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_osd/u_font/byte_group_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_sd_block/u_sd_card/sd_card_cmd_m0/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------------
+     Previous Encoding           New Encoding
+--------------------------------------------------
+                 00000     000000000000000001
+                 00010     000000000000000010
+                 00001     000000000000000100
+                 01001     000000000000001000
+                 01010     000000000000010000
+                 01011     000000000000100000
+                 01100     000000000001000000
+                 01101     000000000010000000
+                 01110     000000000100000000
+                 01111     000000001000000000
+                 00110     000000010000000000
+                 00011     000000100000000000
+                 00111     000001000000000000
+                 00100     000010000000000000
+                 01000     000100000000000000
+                 10001     001000000000000000
+                 00101     010000000000000000
+                 10000     100000000000000000
+--------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sd_block/u_sd_card/sd_card_cmd_m0/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_sd_block/u_sd_card/sd_card_sec_read_write_m0/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                 00000        000000001
+                 00001        000000010
+                 00010        000000100
+                 00011        000001000
+                 00100        000010000
+                 10001        000100000
+                 00101        001000000
+                 00110        010000000
+                 10000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sd_block/u_sd_card/sd_card_sec_read_write_m0/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_sd_block/u_sd_card/spi_master_m0/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000           000001
+                   010           000010
+                   001           000100
+                   100           001000
+                   011           010000
+                   101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sd_block/u_sd_card/spi_master_m0/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_sdram/u_sdr_as_ram/u2_wrrd/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000              001
+                  0001              010
+                  0010              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sdram/u_sdr_as_ram/u2_wrrd/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_sdram_arb/state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   011          0000010
+                   100          0000100
+                   101          0001000
+                   110          0010000
+                   001          0100000
+                   010          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sdram_arb/state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1066 : Inferred FSM for state register 'u_wav_player/parser_state_reg' in module 'QHMU_HDMI_TOP'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000       0000000001
+                  1111       0000000010
+                  0001       0000000100
+                  0010       0000001000
+                  0011       0000010000
+                  1000       0000100000
+                  1001       0001000000
+                  0110       0010000000
+                  0100       0100000000
+                  0111       1000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_wav_player/parser_state_reg' using encoding 'one_hot' in model 'QHMU_HDMI_TOP'
+SYN-1057 : Inferred 33 FSM(s)
+SYN-1001 : Optimize 4 less-than instances
+SYN-1001 : Optimize 2 less-than instances
+SYN-1032 : 64220/547 useful/useless nets, 10768/64 useful/useless insts
+SYN-1001 : Bypass 4 mux instances
+SYN-1021 : Optimized 51 onehot mux instances.
+SYN-1068 : Optimized 58 binary mux instances.
+SYN-1019 : Optimized 10 mux instances.
+SYN-1021 : Optimized 19 onehot mux instances.
+SYN-1021 : Optimized 1 onehot mux instances.
+SYN-1021 : Optimized 3 onehot mux instances.
+SYN-1001 : Optimize 11 less-than instances
+SYN-1016 : Merged 2760 instances.
+SYN-1025 : Merged 39 RAM ports.
+SYN-1026 : Infer Logic BRAM(u_fat32/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 32 x 32	 write mode: NORMAL
+	 port b size: 32 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_fat32/ramread1_syn_4)
+	 port mode: single dual port
+	 port a size: 32 x 32	 write mode: NORMAL
+	 port b size: 32 x 32	 write mode: READBEFOREWRITE
+SYN-1027 : Infer Logic DRAM(u_fat32/ramread2_syn_4) read 32x32, write 32x32
+SYN-1027 : Infer Logic DRAM(u_fat32/ramread3_syn_4) read 32x32, write 32x32
+SYN-1027 : Infer Logic DRAM(u_fat32/ramread4_syn_4) read 32x32, write 32x32
+SYN-1027 : Infer Logic DRAM(u_fat32/ramread5_syn_4) read 32x32, write 32x32
+SYN-1026 : Infer Logic BRAM(u_frame_write_fifo/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 256 x 57	 write mode: NORMAL
+	 port b size: 256 x 57	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_line_a0/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 24	 write mode: NORMAL
+	 port b size: 1024 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_line_a1/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 24	 write mode: NORMAL
+	 port b size: 1024 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_line_b0/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 24	 write mode: NORMAL
+	 port b size: 1024 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_line_b1/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 24	 write mode: NORMAL
+	 port b size: 1024 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_osd/u_font/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 24	 write mode: NORMAL
+	 port b size: 2048 x 24	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_subtitle_player/u_sub_ram/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_wav_player/u_pcm_fifo/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 32	 write mode: NORMAL
+	 port b size: 2048 x 32	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 4 Logic DRAMs, 10 Logic BRAMs.
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-1002 : Derived clock:  create_generated_clock -name {u_clock_reset/u_hdmi_pll/u_pll.clkc[0]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 1.4857 -duty_cycle 50.0000 [get_pins {u_clock_reset/u_hdmi_pll/u_pll.clkc[0]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_clock_reset/u_hdmi_pll/u_pll.clkc[1]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 7.4286 -duty_cycle 50.0000 [get_pins {u_clock_reset/u_hdmi_pll/u_pll.clkc[1]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_clock_reset/u_sdram_pll/u_pll.clkc[0]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -divide_by 4.0000 -duty_cycle 50.0000 [get_pins {u_clock_reset/u_sdram_pll/u_pll.clkc[0]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_clock_reset/u_sdram_pll/u_pll.clkc[1]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 3.0000 -duty_cycle 50.0000 [get_pins {u_clock_reset/u_sdram_pll/u_pll.clkc[1]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_clock_reset/u_sdram_pll/u_pll.clkc[2]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 3.0000 -phase 180 -duty_cycle 50.0000 [get_pins {u_clock_reset/u_sdram_pll/u_pll.clkc[2]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_net_pll/pll_inst.clkc[0]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 2.5000 -duty_cycle 50.0000 [get_pins {u_net_control/u_net_pll/pll_inst.clkc[0]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_net_pll/pll_inst.clkc[1]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 2.5000 -duty_cycle 50.0000 [get_pins {u_net_control/u_net_pll/pll_inst.clkc[1]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_net_pll/pll_inst.clkc[4]} -source [get_ports {I_CLK_50M}] -master_clock {I_CLK_50M} -multiply_by 2.5000 -phase 90 -duty_cycle 50.0000 [get_pins {u_net_control/u_net_pll/pll_inst.clkc[4]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_rx_pll/pll_inst.clkc[0]} -source [get_ports {I_PHY_RGMII_RX_CLK}] -master_clock {I_PHY_RGMII_RX_CLK} -multiply_by 1.0000 -duty_cycle 50.0000 [get_pins {u_net_control/u_rx_pll/pll_inst.clkc[0]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_rx_pll/pll_inst.clkc[1]} -source [get_ports {I_PHY_RGMII_RX_CLK}] -master_clock {I_PHY_RGMII_RX_CLK} -multiply_by 1.0000 -duty_cycle 50.0000 [get_pins {u_net_control/u_rx_pll/pll_inst.clkc[1]}]
+USR-1002 : Derived clock:  create_generated_clock -name {u_net_control/u_rx_pll/pll_inst.clkc[2]} -source [get_ports {I_PHY_RGMII_RX_CLK}] -master_clock {I_PHY_RGMII_RX_CLK} -multiply_by 2.0000 -duty_cycle 50.0000 [get_pins {u_net_control/u_rx_pll/pll_inst.clkc[2]}]
+SYN-1016 : Merged 2989 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 5.449994s wall, 5.265625s user + 0.062500s system = 5.328125s CPU (97.8%); Memory(MB): used = 709, reserved = 697, peak = 709;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 28135, Total nets: 32728.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1018 : Transformed 1 mux instances.
+SYN-1019 : Optimized 13 mux instances.
+SYN-1021 : Optimized 818 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 118 inv instances.
+SYN-1017 : Remove 72 const input seq instances
+SYN-1018 : Transformed 3 mux instances.
+SYN-1019 : Optimized 82 mux instances.
+SYN-1020 : Optimized 1402 distributor mux.
+SYN-1001 : Optimize 153 less-than instances
+SYN-1019 : Optimized 280 mux instances.
+SYN-2595 : bram inst: u_fat32/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_fat32/ramread1_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_frame_write_fifo/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_line_a0/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_line_a1/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_line_b0/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_line_b1/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_net_control/u_rx_client_fifo/ramgen_l/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_net_control/u_rx_client_fifo/ramgen_u/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_net_control/u_tx_client_fifo/ramgen_l/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_net_control/u_tx_client_fifo/ramgen_u/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_osd/u_font/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_subtitle_player/u_sub_ram/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_wav_player/u_pcm_fifo/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-1001 : Optimize constant input of 1 erams.
+SYN-1016 : Merged 14505 instances.
+SYN-1015 : Optimize round 1, 56681 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 27 inv instances.
+SYN-1017 : Remove 10 const input seq instances
+SYN-1019 : Optimized 250 mux instances.
+SYN-1020 : Optimized 5 distributor mux.
+SYN-1019 : Optimized 435 mux instances.
+SYN-2593 : bram inst: u_frame_write_fifo/ramread0_syn_4 will be optimized to a new one with A-width 49 due to unused data out
+SYN-1016 : Merged 81 instances.
+SYN-1015 : Optimize round 2, 1138 better
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_fat32/ramread0_syn_4" in ../../rtl/sd/QHMU_FAT32_READER.v(376) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_fat32/ramread0_syn_4" in ../../rtl/sd/QHMU_FAT32_READER.v(376) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_frame_write_fifo/ramread0_syn_4" in ../../rtl/common/QHMU_ASYNC_FIFO.v(107) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_frame_write_fifo/ramread0_syn_4" in ../../rtl/common/QHMU_ASYNC_FIFO.v(107) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3010 : Optimized 268 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 12 const input seq instances
+SYN-1019 : Optimized 3 mux instances.
+SYN-1020 : Optimized 223 distributor mux.
+SYN-1019 : Optimized 18 mux instances.
+SYN-1016 : Merged 1073 instances.
+SYN-1015 : Optimize round 1, 1400 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1019 : Optimized 4 mux instances.
+SYN-1020 : Optimized 33 distributor mux.
+SYN-1019 : Optimized 4 mux instances.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 2, 101 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 15.213976s wall, 15.031250s user + 0.062500s system = 15.093750s CPU (99.2%); Memory(MB): used = 658, reserved = 656, peak = 797;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 44983, Total nets: 49237.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.005512s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 658, reserved = 656, peak = 797;
+
+SYN-1079 : finish stage Check Design. Total instances: 44983, Total nets: 49237.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 22.371649s wall, 21.984375s user + 0.140625s system = 22.125000s CPU (98.9%); Memory(MB): used = 658, reserved = 656, peak = 797;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 44983, Total nets: 49237.
+
+RUN-1003 : finish command "optimize_rtl" in  22.378452s wall, 21.984375s user + 0.140625s system = 22.125000s CPU (98.9%)
+
+RUN-1004 : used memory is 658 MB, reserved memory is 656 MB, peak memory is 797 MB
+RUN-1002 : start command "report_area -file QHMU_HDMI_PRO_rtl.area"
+RUN-1001 : standard
+***Report Model: QHMU_HDMI_TOP Device: EG4S20BG256***
+
+IO Statistics
+#IO                        53
+  #input                   17
+  #output                  35
+  #inout                    1
+
+Gate Statistics
+#Basic gates            37441
+  #and                  12125
+  #nand                     0
+  #or                   10688
+  #nor                      0
+  #xor                    129
+  #xnor                     0
+  #buf                      0
+  #not                   1102
+  #bufif1                  33
+  #MX21                  2697
+  #FADD                     0
+  #DFF                  10667
+  #LATCH                    0
+#MACRO_ADD                762
+#MACRO_EQ                 346
+#MACRO_MULT                10
+#MACRO_MUX               5314
+#MACRO_OTHERS              39
+
+LUT Statistics
+#Total_luts               718
+  #lut4                   515
+  #lut5                   118
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              85
+
+RUN-1002 : start command "export_db QHMU_HDMI_PRO_rtl.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step gate"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     Parameters    |  Settings  |  Default Values  |  Note  
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     eram_init     |    off     |       off        |        
+RUN-1001 :      map_mode     |    auto    |       auto       |        
+RUN-1001 :    pack_effort    |   medium   |      medium      |        
+RUN-1001 :   pack_seq_in_io  |    auto    |       auto       |        
+RUN-1001 :       report      |  standard  |     standard     |        
+RUN-1001 : -----------------------------------------------------------
+RUN-1002 : start command "optimize_gate -packarea QHMU_HDMI_PRO_gate.area"
+RUN-1001 : Open license file E:/ElectSoftware/Anlogic/TD_6.2.1_Engineer_6.2.168.116/license/Anlogic.lic
+SYN-1001 : Stage 2 | Optimize Gate
+SYN-1001 : Stage 2.1 | Map Reg
+SYN-1001 : End Stage 2.1 | Map Reg; Time: 0.641965s wall, 0.640625s user + 0.000000s system = 0.640625s CPU (99.8%); Memory(MB): used = 684, reserved = 792, peak = 797;
+
+SYN-1079 : finish stage Map Reg. Total instances: 44983, Total nets: 49237.
+
+SYN-1001 : Stage 2.2 | Map IO
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance u_sdram/u_sdram_phy.
+SYN-2001 : Map 108 IOs to PADs of model 'QHMU_HDMI_TOP'
+SYN-1001 : End Stage 2.2 | Map IO; Time: 0.312246s wall, 0.312500s user + 0.000000s system = 0.312500s CPU (100.1%); Memory(MB): used = 686, reserved = 793, peak = 797;
+
+SYN-1001 : Stage 2.3 | Map Macro
+RUN-1002 : start command "update_pll_param -module QHMU_HDMI_TOP"
+SYN-6577 WARNING: The clock signal "u_sdram/u_sdr_as_ram/SDRAM_CLK" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 3 BUFG to GCLK
+SYN-2541 : Logic Ram FIFO "u_hdmi_tx/u_core/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo"
+SYN-6562 WARNING: The init value of "u_fat32/ramread0_syn_4(../../rtl/sd/QHMU_FAT32_READER.v(376))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_frame_write_fifo/ramread0_syn_4(../../rtl/common/QHMU_ASYNC_FIFO.v(107))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo_syn_327(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_497(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_hdmi_tx/u_core/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_353(../../rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_a0/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_a1/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_b0/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_line_b1/ramread0_syn_4(../../rtl/common/QHMU_DPRAM_DC.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_net_control/u_rx_client_fifo/ramgen_l/inst(../../rtl/net/anlogic_official/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 Similar messages will be suppressed.
+SYN-2571 : Map 10 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1016 : Merged 23 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 23 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 508 control mux instances
+SYN-1001 : Generate 48 bigger adders
+SYN-1001 : Convert 4 adder
+SYN-1001 : Optimize 129 adders
+SYN-1001 : Convert 12 adder
+SYN-1001 : Optimize 6 less-than instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 923 instances.
+SYN-2501 : Optimize round 1, 4041 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 2 instances.
+SYN-2501 : Optimize round 1, 2 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 704 macro adder(s)
+SYN-1019 : Optimized 1601 mux instances.
+SYN-1016 : Merged 1097 instances.
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[0]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[1]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[2]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[3]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[4]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[5]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[6]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[7]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[8]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "QHMU_HDMI_TOP" / inst "u_sdram/u_sdr_as_ram/u2_wrrd/Sdr_rd_dout_reg[9]" in ../../rtl/vendor/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 2.3 | Map Macro; Time: 6.371833s wall, 6.359375s user + 0.015625s system = 6.375000s CPU (100.0%); Memory(MB): used = 736, reserved = 833, peak = 797;
+
+SYN-1079 : finish stage Map Macro. Total instances: 57063, Total nets: 61250.
+
+SYN-1001 : Stage 2.4 | Map Gate
+SYN-3001 : Collect 10320 PI 6445 PO (23 timing unconstrained) for mapping
+SYN-2581 : Mapping with K=5, #lut = 10099 (3.35), #lev = 20 (2.89), #crit_level = 20
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 10099 (3.35), #lev = 20 (2.90), #crit_level = 0
+SYN-3001 : Logic optimization opt = 3.01 sec, map = 0.70 sec, post map opt = 2.32 sec.
+SYN-1001 : End Stage 2.4 | Map Gate; Time: 11.304090s wall, 11.156250s user + 0.031250s system = 11.187500s CPU (99.0%); Memory(MB): used = 783, reserved = 882, peak = 797;
+
+SYN-1001 : Packing model "QHMU_HDMI_TOP" ...
+SYN-4010 : Pack lib has 57 rtl pack models with 26 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 10838 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 160 carry chain into lslice
+SYN-4007 : Packing 3036 adder to BLE ...
+SYN-4008 : Packed 3036 adder and 198 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4013 : Packed 64 DRAM and 0 SEQ.
+RUN-1002 : start command "report_qor -step gate -file gate.qor"
+RUN-1002 : start command "start_timer"
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |       -15658                |
+|     Setup TNS             |     -1015055                |
+|     Num of violated S-EP  |          733                |
+|     Hold WNS              |          471                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        10640                |
+|     #luts                 |        10732                |
+|     #lut1                 |          104                |
+|     #lut1(~A)             |          102                |
+|     #slices               |         2634                |
+|     slices percentage     |       26.88%                |
+|     #RAMs                 |           63                |
+|     #DSPs                 |           15                |
+|     #f7mux                |        0.00%                |
+|     #MACROs               |          496                |
+|     #insts in MACRO       |         2634                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |          171                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        43.49                |
+| dff(single fanout)->dff   |         1461                |
+| dff(single fanout)->dram  |            0                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     I_CLK_50M             |           45                |
+|     u_clock_...           |            6                |
+|     Total                 |           51                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  Clock                   |  Index  |  Budget(Period)  |  Level(Quota)  |                                                          Cell Type List                                                          |        Reason        |  Slack   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                I_CLK_50M                 |    1    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    2    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    3    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    4    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    5    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[0]  |    1    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    2    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    3    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    4    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    5    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock                                     |  Period            |  0      |  1     |  2     |  3     |  4     |  5     |  6    |  7    |  8    |  9    |  10   |  11   |  12   |  13  |  14  |  15  |  16  |  17   |  24
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  I_CLK_50M                                 |  20.000ns (50MHz)  |  3226   |  911   |  589   |  746   |  724   |  977   |  242  |  229  |  275  |  165  |  125  |  247  |  71   |  43  |  3   |  4   |  3   |  175  |  0
+  I_PHY_RGMII_RX_CLK                        |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[0]    |  13.461ns (74MHz)  |  2903   |  829   |  285   |  400   |  472   |  405   |  177  |  185  |  89   |  122  |  17   |  0    |  44   |  4   |  34  |  24  |  16  |  0    |  6
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[1]    |  2.692ns (371MHz)  |  67     |  33    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[0]   |  80.000ns (12MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[1]   |  6.666ns (150MHz)  |  1151   |  199   |  328   |  94    |  271   |  56    |  6    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[2]   |  6.666ns (150MHz)  |  16     |  32    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[0]  |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[1]  |  8.000ns (125MHz)  |  4576   |  1395  |  932   |  764   |  615   |  332   |  450  |  53   |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[4]  |  8.000ns (125MHz)  |  2      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[0]   |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[1]   |  8.000ns (125MHz)  |  820    |  164   |  210   |  86    |  1     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[2]   |  4.000ns (250MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  Total                                     |  NA                |  12761  |  3563  |  2344  |  2090  |  2083  |  1770  |  875  |  467  |  364  |  287  |  142  |  247  |  115  |  47  |  37  |  28  |  19  |  175  |  6
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: The table count the worst 100000 paths, each endpoint count only one time.(27420 paths analyzed)
+
+Hierarchical Rent Exponent Report
++-----------------------------------------------------------------------------------+
+|Inst               |Model                   |Rent     |Cell     |Pin     |Term     |
++-----------------------------------------------------------------------------------+
+|top                |QHMU_HDMI_TOP           |0.17     |24542    |106208  |24       |
+|  u_hdmi_tx        |QHMU_HDMI_TX_13         |0.58     |3102     |11260   |372      |
+|  u_video_streamer |QHMU_VIDEO_STREAMER_32  |0.57     |1557     |7327    |312      |
+|  u_fat32          |QHMU_FAT32_READER_10    |0.45     |3924     |21543   |227      |
+|  u_net_control    |QHMU_RGMII_TEMAC_UDP_21 |0.43     |7870     |32639   |194      |
+|  u_wav_player     |QHMU_WAV_PLAYER_34      |0.36     |1151     |5101    |55       |
++-----------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+SYN-1001 : The design has 9 dangling syn_keep insts.
+RUN-1003 : finish command "report_qor -step gate -file gate.qor" in  2.642358s wall, 2.640625s user + 0.000000s system = 2.640625s CPU (99.9%)
+
+RUN-1004 : used memory is 781 MB, reserved memory is 880 MB, peak memory is 797 MB
+RUN-1002 : start command "report_area -file QHMU_HDMI_PRO_gate.area"
+RUN-1001 : standard
+***Report Model: QHMU_HDMI_TOP Device: EG4S20BG256***
+
+IO Statistics
+#IO                        53   out of    188   28.19%
+  #input                   17
+  #output                  35
+  #inout                    1
+
+LUT Statistics
+#Total_luts             10732
+  #lut4                  9323
+  #lut5                  1409
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    16000   out of  19600   81.63%
+#reg                    10838   out of  19600   55.30%
+#bram                      63   out of     64   98.44%
+  #bram9k                  63
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                       15   out of     29   51.72%
+#pad                       57   out of    188   30.32%
+  #ireg                    13
+  #oreg                    19
+  #treg                     1
+#pll                        4   out of      4  100.00%
+#gclk                       3   out of     16   18.75%
+
+SYN-1001 : End Stage 2 | Optimize Gate; Time: 22.543625s wall, 21.625000s user + 0.796875s system = 22.421875s CPU (99.5%); Memory(MB): used = 781, reserved = 880, peak = 797;
+
+RUN-1003 : finish command "optimize_gate -packarea QHMU_HDMI_PRO_gate.area" in  22.550278s wall, 21.625000s user + 0.796875s system = 22.421875s CPU (99.4%)
+
+RUN-1004 : used memory is 781 MB, reserved memory is 880 MB, peak memory is 797 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1001 : Stage 3 | Legalize Phy Inst
+SYN-1011 : Flatten model QHMU_HDMI_TOP
+SYN-1001 : End Stage 3 | Legalize Phy Inst; Time: 0.051115s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (91.7%); Memory(MB): used = 781, reserved = 880, peak = 797;
+
+RUN-1002 : start command "update_timing"
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "update_timing" in  1.240179s wall, 1.140625s user + 0.000000s system = 1.140625s CPU (92.0%)
+
+RUN-1004 : used memory is 782 MB, reserved memory is 881 MB, peak memory is 797 MB
+RUN-1002 : start command "report_timing_status -file QHMU_HDMI_PRO_gate.ts"
+RUN-1002 : start command "report_timing_summary -file QHMU_HDMI_PRO_gate.timing"
+RUN-1002 : start command "flow_status -file flow.status"
+Location         : D:\FpgaOtherPro\TangDynastyPro\QHMU_HDMI_PRO\QHMU_HDMI_PRO_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : QHMU_HDMI_TOP
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -15658ps  TNS -1015055ps  NUM_FEPS   733
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+RUN-1001 : Flow Statistics:
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  22s(50%)   |    21(50%)    |        781        |        797        
+RUN-1001 :   optimize_rtl   |    1     |  22s(50%)   |    21(50%)    |        658        |        797        
+RUN-1001 :   import_device  |    1     |   0s(0%)    |     0(0%)     |        81         |        81         
+RUN-1001 :     read_adc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+RUN-1001 :     read_sdc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    5     |     44s     |      42       |        781        |        797        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1002 : start command "export_db QHMU_HDMI_PRO_gate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "export_flow_status -s read_design -e opt_gate"
+RUN-1002 : start command "flow_status"
+
+Location         : D:\FpgaOtherPro\TangDynastyPro\QHMU_HDMI_PRO\QHMU_HDMI_PRO_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : QHMU_HDMI_TOP
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -15658ps  TNS -1015055ps  NUM_FEPS   733
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+RUN-1001 : Flow Statistics:
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  22s(50%)   |    21(50%)    |        781        |        797        
+RUN-1001 :   optimize_rtl   |    1     |  22s(50%)   |    21(50%)    |        658        |        797        
+RUN-1001 :   import_device  |    1     |   0s(0%)    |     0(0%)     |        81         |        81         
+RUN-1001 :     read_adc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+RUN-1001 :     read_sdc     |    1     |   0s(0%)    |     0(0%)     |        334        |        334        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    5     |     44s     |      42       |        781        |        797        
+RUN-1001 : --------------------------------------------------------------------------------------------------

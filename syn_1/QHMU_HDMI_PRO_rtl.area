@@ -1,0 +1,182 @@
+standard
+***Report Model: QHMU_HDMI_TOP Device: EG4S20BG256***
+
+IO Statistics
+#IO                        53
+  #input                   17
+  #output                  35
+  #inout                    1
+
+Gate Statistics
+#Basic gates            37441
+  #and                  12125
+  #nand                     0
+  #or                   10688
+  #nor                      0
+  #xor                    129
+  #xnor                     0
+  #buf                      0
+  #not                   1102
+  #bufif1                  33
+  #MX21                  2697
+  #FADD                     0
+  #DFF                  10667
+  #LATCH                    0
+#MACRO_ADD                762
+#MACRO_EQ                 346
+#MACRO_MULT                10
+#MACRO_MUX               5314
+#MACRO_OTHERS              39
+
+LUT Statistics
+#Total_luts               718
+  #lut4                   515
+  #lut5                   118
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              85
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------------------+
+|Instance                                    |Module                             |gates  |seq    |macros |
++--------------------------------------------------------------------------------------------------------+
+|top                                         |QHMU_HDMI_TOP                      |26774  |10667  |1157   |
+|  u_active_buffer_sync                      |QHMU_SYNC_BUS                      |0      |2      |0      |
+|  u_audio_manager                           |QHMU_AUDIO_MANAGER                 |94     |31     |9      |
+|  u_audio_vis                               |QHMU_AUDIO_VIS                     |165    |96     |87     |
+|  u_audio_wait_mode_pixel_sync              |QHMU_SYNC_BUS                      |0      |2      |0      |
+|  u_bmp_loader                              |QHMU_BMP_LOADER                    |253    |382    |33     |
+|  u_buzzer                                  |QHMU_BUZZER                        |20     |38     |4      |
+|  u_clock_reset                             |QHMU_CLOCK_RESET                   |2      |21     |2      |
+|    u_hdmi_pll                              |QHMU_HDMI_PLL                      |0      |0      |0      |
+|    u_sdram_pll                             |QHMU_SDRAM_PLL                     |0      |0      |1      |
+|    u_rst_ctrl                              |QHMU_RESET_SYNC                    |0      |3      |0      |
+|    u_rst_pixel                             |QHMU_RESET_SYNC                    |0      |3      |0      |
+|    u_rst_sdram                             |QHMU_RESET_SYNC                    |0      |3      |0      |
+|  u_color_adjust                            |QHMU_COLOR_ADJUST                  |7      |0      |12     |
+|  u_fat32                                   |QHMU_FAT32_READER                  |12955  |1420   |133    |
+|  u_frame_write_fifo                        |QHMU_ASYNC_FIFO                    |21     |73     |5      |
+|  u_hdmi_acr                                |QHMU_HDMI_ACR                      |3      |48     |3      |
+|  u_hdmi_tx                                 |QHMU_HDMI_TX                       |545    |1446   |237    |
+|    u_core                                  |hdmi_1_4b_transmitter_core_wrapper |540    |1374   |230    |
+|      u0_reset_sync                         |hdmi_1_4b_tx_reset_sync            |0      |2      |0      |
+|      u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                  |163    |102    |47     |
+|        u_hdmi_edid_read_controller         |hdmi_edid_read_controller          |10     |11     |5      |
+|        u_iic_master_wrapper                |iic_master_wrapper                 |153    |91     |42     |
+|          u_iic_bit_transmitter             |iic_bit_transmitter                |66     |33     |14     |
+|          u_iic_transmitter_controller      |iic_transmitter_controller         |85     |58     |28     |
+|            u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                 |0      |0      |1      |
+|      u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper         |376    |1270   |183    |
+|        u0_hdmi_tmds_encode                 |hdmi_tmds_encode                   |95     |161    |41     |
+|        u1_hdmi_tmds_encode                 |hdmi_tmds_encode                   |49     |109    |38     |
+|        u2_hdmi_tmds_encode                 |hdmi_tmds_encode                   |52     |109    |38     |
+|        u_hdmi_data_distribution            |hdmi_data_distribution             |0      |43     |0      |
+|        u_hdmi_island_data_assemble         |hdmi_island_data_assemble          |4      |418    |2      |
+|        u_hdmi_island_data_gen              |hdmi_island_data_gen               |148    |350    |39     |
+|          U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel      |13     |148    |37     |
+|            u_w96_d1024_fifo                |w96_d1024_fifo                     |0      |0      |1      |
+|            u_BCH_32_24_encode              |BCH_32_24_encode                   |0      |1      |0      |
+|            u_BCH_64_56_encode              |BCH_64_56_encode                   |0      |8      |0      |
+|          u_audio_clock_regeneration_packet |audio_clock_regeneration_packet    |10     |63     |0      |
+|            u_BCH_64_56_encode              |BCH_64_56_encode                   |0      |8      |0      |
+|        u_hdmi_video_data_assemble          |hdmi_video_data_assemble           |0      |40     |0      |
+|        u_hdmi_video_source                 |hdmi_video_source                  |20     |38     |24     |
+|        u_video_axi_stream_receiver         |video_axi_stream_receiver          |8      |2      |1      |
+|          u_w24_d1024_fifo                  |w24_d1024_fifo                     |0      |0      |1      |
+|    u_phy                                   |QHMU_HDMI_PHY                      |2      |47     |4      |
+|      u_ck                                  |QHMU_TMDS_SERIALIZER               |2      |11     |1      |
+|      u_d0                                  |QHMU_TMDS_SERIALIZER               |0      |12     |1      |
+|      u_d1                                  |QHMU_TMDS_SERIALIZER               |0      |12     |1      |
+|      u_d2                                  |QHMU_TMDS_SERIALIZER               |0      |12     |1      |
+|  u_image_manager                           |QHMU_IMAGE_MANAGER                 |124    |93     |8      |
+|  u_line_a0                                 |QHMU_DPRAM_DC                      |0      |0      |1      |
+|  u_line_a1                                 |QHMU_DPRAM_DC                      |0      |0      |1      |
+|  u_line_b0                                 |QHMU_DPRAM_DC                      |0      |0      |1      |
+|  u_line_b1                                 |QHMU_DPRAM_DC                      |0      |0      |1      |
+|  u_line_request_mailbox                    |QHMU_CDC_MAILBOX                   |9      |97     |0      |
+|  u_net_control                             |QHMU_RGMII_TEMAC_UDP               |7844   |3901   |162    |
+|    u_net_pll                               |pll_gen                            |0      |0      |1      |
+|    u_qhmu_net_app                          |QHMU_NET_APP                       |82     |194    |16     |
+|    u_rx_client_fifo                        |rx_client_fifo                     |64     |161    |13     |
+|      ramgen_l                              |RAMB16_S9_S9                       |0      |0      |1      |
+|      ramgen_u                              |RAMB16_S9_S9                       |0      |0      |1      |
+|    u_rx_pll                                |rx_pll                             |0      |0      |1      |
+|    u_temac_block                           |temac_block                        |21     |644    |15     |
+|      trimac_core                           |TEMAC_CORE                         |1      |619    |0      |
+|      u1_rgmii_interface                    |rgmii_interface                    |7      |1      |11     |
+|        ctl_output                          |ODDR                               |0      |0      |1      |
+|        rgmii_rx_ctl_in                     |IDDR                               |0      |0      |1      |
+|        rgmii_txc_ddr                       |ODDR                               |0      |0      |1      |
+|        rxdata_in_bus[0]$rgmii_rx_data_in   |IDDR                               |0      |0      |1      |
+|        rxdata_in_bus[1]$rgmii_rx_data_in   |IDDR                               |0      |0      |1      |
+|        rxdata_in_bus[2]$rgmii_rx_data_in   |IDDR                               |0      |0      |1      |
+|        rxdata_in_bus[3]$rgmii_rx_data_in   |IDDR                               |0      |0      |1      |
+|        txdata_out_bus[0]$rgmii_txd_out     |ODDR                               |0      |0      |1      |
+|        txdata_out_bus[1]$rgmii_txd_out     |ODDR                               |0      |0      |1      |
+|        txdata_out_bus[2]$rgmii_txd_out     |ODDR                               |0      |0      |1      |
+|        txdata_out_bus[3]$rgmii_txd_out     |ODDR                               |0      |0      |1      |
+|      u_tx_clk_en_gen                       |tx_clk_en_gen                      |10     |17     |4      |
+|    u_tx_client_fifo                        |tx_client_fifo                     |72     |202    |13     |
+|      ramgen_l                              |RAMB16_S9_S9                       |0      |0      |1      |
+|      ramgen_u                              |RAMB16_S9_S9                       |0      |0      |1      |
+|    u_udp_ip_protocol_stack                 |udp_ip_protocol_stack              |7566   |2558   |72     |
+|      arp_layer                             |arp_layer                          |785    |1042   |16     |
+|        arp_receive_module                  |arp_receive                        |474    |320    |3      |
+|        arp_send_module                     |arp_send                           |278    |266    |4      |
+|        ip_mac_addr_pairs_cache_module      |ip_mac_addr_pairs_cache            |32     |375    |9      |
+|      ip_layer                              |ip_layer                           |3896   |839    |40     |
+|        icmp_echo_data_fifo                 |ram_fifo                           |29     |94     |6      |
+|          u_anlogic_soft_async_fifo         |generic_async_fifo                 |29     |94     |6      |
+|        ip_receive_module                   |ip_receive                         |727    |297    |15     |
+|          icmp_packet_process_module        |icmp_packet_process                |341    |162    |7      |
+|          ip_header_checksum_check_module   |ip_header_checksum_check           |10     |41     |5      |
+|        ip_send_module                      |ip_send                            |3140   |448    |19     |
+|          icmp_packet_send_module           |icmp_packet_send                   |310    |121    |4      |
+|          ip_shift_register                 |shift_top                          |0      |160    |0      |
+|      receive_buffer                        |receive_buffer                     |19     |18     |2      |
+|      send_buffer                           |send_buffer                        |1856   |217    |6      |
+|      temac_data_process                    |temac_data_process                 |424    |272    |2      |
+|        mac_shift_register                  |shift_top                          |0      |144    |0      |
+|        temac_shift_register                |shift_top                          |0      |32     |0      |
+|      udp_layer                             |udp_layer                          |586    |170    |6      |
+|        udp_receive_module                  |udp_receive                        |540    |67     |4      |
+|        udp_send_module                     |udp_send                           |46     |103    |2      |
+|          udp_shfit_register                |shift_top                          |0      |64     |0      |
+|  u_osd                                     |QHMU_OSD_COMPOSITOR                |567    |141    |126    |
+|    u_font                                  |QHMU_FONT24_STATUS                 |117    |88     |18     |
+|    u_font_loaded_sync                      |QHMU_SYNC_BUS                      |0      |2      |0      |
+|  u_sd_block                                |QHMU_SD_BLOCK_IF                   |393    |181    |13     |
+|    u_sd_card                               |sd_card_top                        |393    |181    |13     |
+|      sd_card_cmd_m0                        |sd_card_cmd                        |278    |49     |8      |
+|      sd_card_sec_read_write_m0             |sd_card_sec_read_write             |104    |88     |0      |
+|      spi_master_m0                         |spi_master                         |11     |44     |5      |
+|  u_sdram                                   |QHMU_SDRAM_WRAPPER                 |91     |501    |9      |
+|    u_sdr_as_ram                            |sdr_as_ram                         |91     |501    |9      |
+|      u1_init_ref                           |sdr_init_ref                       |24     |96     |4      |
+|      u2_wrrd                               |sdr_wrrd                           |67     |405    |5      |
+|  u_sdram_arb                               |QHMU_SDRAM_ARB                     |1621   |399    |22     |
+|  u_seg7                                    |QHMU_SEG7_DRIVER                   |22     |18     |3      |
+|  u_subtitle_player                         |QHMU_SUBTITLE_PLAYER               |76     |122    |18     |
+|    u_frame_to_ctrl                         |QHMU_PULSE_SYNC                    |2      |5      |0      |
+|    u_sub_ram                               |QHMU_DPRAM_DC                      |0      |0      |1      |
+|    u_sub_cfg_sync                          |QHMU_SYNC_BUS                      |0      |18     |0      |
+|    u_sub_scroll_sync                       |QHMU_SYNC_BUS                      |0      |16     |0      |
+|  u_transition_ctrl                         |QHMU_TRANSITION_CTRL               |17     |11     |2      |
+|  u_transition_done_sync                    |QHMU_PULSE_SYNC                    |2      |5      |0      |
+|  u_transition_start_sync                   |QHMU_PULSE_SYNC                    |2      |5      |0      |
+|  u_user_control                            |QHMU_USER_CONTROL                  |218    |114    |69     |
+|    G_KEY[0]$u_db                           |QHMU_DEBOUNCE                      |27     |24     |2      |
+|    G_KEY[1]$u_db                           |QHMU_DEBOUNCE                      |27     |24     |2      |
+|    G_KEY[2]$u_db                           |QHMU_DEBOUNCE                      |27     |24     |2      |
+|    G_KEY[3]$u_db                           |QHMU_DEBOUNCE                      |27     |24     |2      |
+|  u_video_streamer                          |QHMU_VIDEO_STREAMER                |184    |575    |105    |
+|    u_fit0                                  |QHMU_ASPECT_FIT                    |31     |137    |15     |
+|    u_fit1                                  |QHMU_ASPECT_FIT                    |31     |137    |15     |
+|  u_video_transition                        |QHMU_VIDEO_TRANSITION              |49     |0      |14     |
+|  u_wav_player                              |QHMU_WAV_PLAYER                    |1264   |533    |53     |
+|    u_audio_flush_sync                      |QHMU_PULSE_SYNC                    |2      |5      |0      |
+|    u_pcm_fifo                              |QHMU_AUDIO_FIFO                    |38     |97     |7      |
+|  u_write_idle_sync                         |QHMU_SYNC_BUS                      |0      |2      |0      |
+|  u_ctrl_sync                               |QHMU_SYNC_BUS                      |0      |52     |0      |
+|  u_meta_sync                               |QHMU_SYNC_BUS                      |0      |90     |0      |
++--------------------------------------------------------------------------------------------------------+

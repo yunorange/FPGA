@@ -1,0 +1,102 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |       -15658                |
+|     Setup TNS             |     -1015055                |
+|     Num of violated S-EP  |          733                |
+|     Hold WNS              |          471                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        10640                |
+|     #luts                 |        10732                |
+|     #lut1                 |          104                |
+|     #lut1(~A)             |          102                |
+|     #slices               |         2634                |
+|     slices percentage     |       26.88%                |
+|     #RAMs                 |           63                |
+|     #DSPs                 |           15                |
+|     #f7mux                |        0.00%                |
+|     #MACROs               |          496                |
+|     #insts in MACRO       |         2634                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |          171                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        43.49                |
+| dff(single fanout)->dff   |         1461                |
+| dff(single fanout)->dram  |            0                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     I_CLK_50M             |           45                |
+|     u_clock_...           |            6                |
+|     Total                 |           51                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  Clock                   |  Index  |  Budget(Period)  |  Level(Quota)  |                                                          Cell Type List                                                          |        Reason        |  Slack   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                I_CLK_50M                 |    1    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    2    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    3    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    4    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+                                          |    5    |    265(20000)    |      3(1)      |                                                      SEQ,LUT2,LUT5,LUT5,SEQ                                                      |  large launch delay  |  -4033   
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[0]  |    1    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    2    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    3    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    4    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+                                          |    5    |   13315(13461)   |     24(17)     |  SEQ,LUT3,LUT5,LUT4,LUT3,LUT2,LUT4,LUT5,LUT2,LUT4,LUT4,LUT4,LUT4,LUT4,LUT2,LUT2,LUT2,LUT2,LUT2,LUT5,LUT5,MULT18,ADDER,ADDER,EMB  |        normal        |  -15167  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock                                     |  Period            |  0      |  1     |  2     |  3     |  4     |  5     |  6    |  7    |  8    |  9    |  10   |  11   |  12   |  13  |  14  |  15  |  16  |  17   |  24
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  I_CLK_50M                                 |  20.000ns (50MHz)  |  3226   |  911   |  589   |  746   |  724   |  977   |  242  |  229  |  275  |  165  |  125  |  247  |  71   |  43  |  3   |  4   |  3   |  175  |  0
+  I_PHY_RGMII_RX_CLK                        |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[0]    |  13.461ns (74MHz)  |  2903   |  829   |  285   |  400   |  472   |  405   |  177  |  185  |  89   |  122  |  17   |  0    |  44   |  4   |  34  |  24  |  16  |  0    |  6
+  u_clock_reset/u_hdmi_pll/u_pll.clkc[1]    |  2.692ns (371MHz)  |  67     |  33    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[0]   |  80.000ns (12MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[1]   |  6.666ns (150MHz)  |  1151   |  199   |  328   |  94    |  271   |  56    |  6    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_clock_reset/u_sdram_pll/u_pll.clkc[2]   |  6.666ns (150MHz)  |  16     |  32    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[0]  |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[1]  |  8.000ns (125MHz)  |  4576   |  1395  |  932   |  764   |  615   |  332   |  450  |  53   |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_net_pll/pll_inst.clkc[4]  |  8.000ns (125MHz)  |  2      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[0]   |  8.000ns (125MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[1]   |  8.000ns (125MHz)  |  820    |  164   |  210   |  86    |  1     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  u_net_control/u_rx_pll/pll_inst.clkc[2]   |  4.000ns (250MHz)  |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0    |  0
+  Total                                     |  NA                |  12761  |  3563  |  2344  |  2090  |  2083  |  1770  |  875  |  467  |  364  |  287  |  142  |  247  |  115  |  47  |  37  |  28  |  19  |  175  |  6
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hierarchical Rent Exponent Report
++-----------------------------------------------------------------------------------+
+|Inst               |Model                   |Rent     |Cell     |Pin     |Term     |
++-----------------------------------------------------------------------------------+
+|top                |QHMU_HDMI_TOP           |0.17     |24542    |106208  |24       |
+|  u_hdmi_tx        |QHMU_HDMI_TX_13         |0.58     |3102     |11260   |372      |
+|  u_video_streamer |QHMU_VIDEO_STREAMER_32  |0.57     |1557     |7327    |312      |
+|  u_fat32          |QHMU_FAT32_READER_10    |0.45     |3924     |21543   |227      |
+|  u_net_control    |QHMU_RGMII_TEMAC_UDP_21 |0.43     |7870     |32639   |194      |
+|  u_wav_player     |QHMU_WAV_PLAYER_34      |0.36     |1151     |5101    |55       |
++-----------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
