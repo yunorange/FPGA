@@ -1,0 +1,79 @@
+# QHMU_HDMI_TOP - EG4S20BG256 / HX4S20C
+# Single combined constraint file for HDMI + SD + local UI + RGMII Ethernet.
+# Do not load the old ph1_demo.adc or any second Ethernet ADC file at the same time.
+
+# 50 MHz board oscillator. R7 is in the RGMII/Bank-2 group in this board pinout.
+# Keep the same IOSTANDARD as the RGMII pins to avoid the TD Bank-2 conflict.
+set_pin_assignment { I_CLK_50M } { LOCATION = R7; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+
+# Four active-low push buttons
+set_pin_assignment { I_KEY_N[0] } { LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_KEY_N[1] } { LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_KEY_N[2] } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_KEY_N[3] } { LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+# Four slide switches
+set_pin_assignment { I_SW[0] } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_SW[1] } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_SW[2] } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_SW[3] } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# Four board LEDs
+set_pin_assignment { O_LED[0] } { LOCATION = A4;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_LED[1] } { LOCATION = A3;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_LED[2] } { LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_LED[3] } { LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# Buzzer
+set_pin_assignment { O_BUZZER } { LOCATION = H11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# 8-segment bus
+set_pin_assignment { O_SEG[0] } { LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[1] } { LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[2] } { LOCATION = B6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[3] } { LOCATION = A5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[4] } { LOCATION = B5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[5] } { LOCATION = A8;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[6] } { LOCATION = A7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SEG[7] } { LOCATION = A6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# Eight active-low digit selects
+set_pin_assignment { O_DIG_SEL[0] } { LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[1] } { LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[2] } { LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[3] } { LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[4] } { LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[5] } { LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[6] } { LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_DIG_SEL[7] } { LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# SD/TF card SPI
+set_pin_assignment { O_SD_CLK } { LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_SD_CMD } { LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_SD_D0 }  { LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { O_SD_D3 }  { LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# HDMI connector J7: differential output pairs
+set_pin_assignment { O_HDMI_D2_P }  { LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_HDMI_D1_P }  { LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_HDMI_D0_P }  { LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_HDMI_CLK_P } { LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+
+# HDMI DDC / hot plug
+set_pin_assignment { O_HDMI_SCL }  { LOCATION = P1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = NONE; }
+set_pin_assignment { IO_HDMI_SDA } { LOCATION = R1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_HDMI_HPD }  { LOCATION = K2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# RGMII PHY signals (Bank 2, LVCMOS25)
+set_pin_assignment { I_PHY_RGMII_RX_CLK } { LOCATION = T14; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { I_PHY_RGMII_RX_CTL } { LOCATION = T13; IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { I_PHY_RGMII_RXD[0] } { LOCATION = P6;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { I_PHY_RGMII_RXD[1] } { LOCATION = M6;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { I_PHY_RGMII_RXD[2] } { LOCATION = T9;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { I_PHY_RGMII_RXD[3] } { LOCATION = N9;  IOSTANDARD = LVCMOS25; PULLTYPE = NONE; }
+set_pin_assignment { O_PHY_RGMII_TX_CLK } { LOCATION = T12; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; OUTDEL = 3; }
+set_pin_assignment { O_PHY_RGMII_TX_CTL } { LOCATION = T7;  IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; }
+set_pin_assignment { O_PHY_RGMII_TXD[0] } { LOCATION = T4; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; }
+set_pin_assignment { O_PHY_RGMII_TXD[1] } { LOCATION = T6; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; }
+set_pin_assignment { O_PHY_RGMII_TXD[2] } { LOCATION = M7; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; }
+set_pin_assignment { O_PHY_RGMII_TXD[3] } { LOCATION = T8; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; }

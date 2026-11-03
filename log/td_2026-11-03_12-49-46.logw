@@ -1,0 +1,184 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/ElectSoftware/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     John
+   Run Date =   Tue Nov  3 12:49:46 2026
+
+   Run on =     DESKTOP-8EJLQT9
+============================================================
+GUI-8003 ERROR: rtl/common/QHMU_DPRAM_DC.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_DPRAM_DC.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_DPRAM_DC.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_SYNC_BUS.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_SYNC_BUS.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_SYNC_BUS.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_SYNC_BUS.v is missing!
+GUI-8003 ERROR: rtl/common/QHMU_PULSE_SYNC.v is missing!
+GUI-6001 WARNING: File rtl/video/QHMU_VIDEO_TRANSITION.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_VIDEO_STREAMER.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_TRANSITION_CTRL.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_SUBTITLE_PLAYER.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_OSD_COMPOSITOR.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_COLOR_ADJUST.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_AUDIO_VIS.v does not exist!
+GUI-6001 WARNING: File rtl/sd/QHMU_SD_BLOCK_IF.v does not exist!
+GUI-6001 WARNING: File rtl/sd/QHMU_SD_ARB.v does not exist!
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+GUI-6001 WARNING: File rtl/sd/QHMU_FAT32_RW_SERVICE.v does not exist!
+GUI-6001 WARNING: File rtl/sd/QHMU_FAT32_READER.v does not exist!
+GUI-6001 WARNING: File rtl/sd/QHMU_BMP_LOADER.v does not exist!
+GUI-6001 WARNING: File rtl/net/QHMU_RGMII_UDP_LITE.v does not exist!
+GUI-6001 WARNING: File rtl/net/QHMU_PHY_RTL8211E.v does not exist!
+GUI-6001 WARNING: File rtl/memory/QHMU_SDRAM_WRAPPER.v does not exist!
+GUI-6001 WARNING: File rtl/memory/QHMU_SDRAM_ARB.v does not exist!
+GUI-6001 WARNING: File rtl/hdmi/QHMU_HDMI_TX.v does not exist!
+GUI-6001 WARNING: File rtl/display/QHMU_SEG7_DRIVER.v does not exist!
+GUI-6001 WARNING: File rtl/display/QHMU_BUZZER.v does not exist!
+GUI-6001 WARNING: File rtl/control/QHMU_USER_CONTROL.v does not exist!
+GUI-6001 WARNING: File rtl/control/QHMU_IMAGE_MANAGER.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_SYNC_BUS.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_PULSE_SYNC.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_DPRAM_DC.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_CDC_MAILBOX.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_ASYNC_FIFO.v does not exist!
+GUI-6001 WARNING: File rtl/clock/QHMU_CLOCK_RESET.v does not exist!
+GUI-6001 WARNING: File rtl/audio/QHMU_WAV_PLAYER.v does not exist!
+GUI-6001 WARNING: File rtl/audio/QHMU_HDMI_ACR.v does not exist!
+GUI-6001 WARNING: File rtl/audio/QHMU_AUDIO_MANAGER.v does not exist!
+GUI-6001 WARNING: File rtl/QHMU_HDMI_TOP.v does not exist!
+GUI-6001 WARNING: File D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/QHMU_HDMI_TOP.v does not exist!
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: The file rtl/QHMU_DEFINES.vh will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+GUI-6001 WARNING: File rtl/video/QHMU_FONT24_STATUS.v does not exist!
+GUI-6001 WARNING: File rtl/video/QHMU_ASPECT_FIT.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sdr_as_ram.enc.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sd_card_top.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/hdmi_1_4b_transmitter_core_wrapper.enc.v does not exist!
+GUI-6001 WARNING: File rtl/net/anlogic_official/IDDR.v does not exist!
+GUI-6001 WARNING: File rtl/net/QHMU_NET_APP.v does not exist!
+GUI-6001 WARNING: File rtl/hdmi/QHMU_HDMI_PHY.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_RESET_SYNC.v does not exist!
+GUI-6001 WARNING: File rtl/common/QHMU_DEBOUNCE.v does not exist!
+GUI-6001 WARNING: File rtl/clock/QHMU_SDRAM_PLL.v does not exist!
+GUI-6001 WARNING: File rtl/clock/QHMU_HDMI_PLL.v does not exist!
+GUI-6001 WARNING: File rtl/audio/QHMU_AUDIO_FIFO.v does not exist!
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: The file rtl/QHMU_DEFINES.vh will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-5007 WARNING: The file rtl/QHMU_DEFINES.vh will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: The file rtl/vendor/global_def.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+GUI-6001 WARNING: File rtl/vendor/spi_master.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sdr_wrrd.enc.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sdr_init_ref.enc.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sd_card_sec_read_write.v does not exist!
+GUI-6001 WARNING: File rtl/vendor/sd_card_cmd.v does not exist!
+GUI-6001 WARNING: File rtl/hdmi/QHMU_TMDS_SERIALIZER.v does not exist!
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-5007 WARNING: The file rtl/QHMU_DEFINES.vh will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: The file rtl/vendor/global_def.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-5007 WARNING: The file rtl/QHMU_DEFINES.vh will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: The file rtl/vendor/global_def.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+PRJ-8403 ERROR: File(D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/vendor/global_def.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/vendor/global_def.v
+PRJ-8403 ERROR: File(D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/QHMU_DEFINES.vh) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/QHMU_DEFINES.vh
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(70)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+GUI-6001 WARNING: File D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/video/QHMU_HDMI_DIAG_PATTERN.v does not exist!
+GUI-6001 WARNING: File D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/video/QHMU_FONT16_STATUS.v does not exist!
+GUI-6001 WARNING: File D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/net/legacy/QHMU_RGMII_UDP_CTRL.v does not exist!
+GUI-6001 WARNING: File D:/FpgaOtherPro/TangDynastyPro/QHMU_HDMI_PRO/rtl/net/anlogic_official/BUFGMUX.v does not exist!
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(70)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
+PHY-5014 WARNING: Detail route doesn't find pib for u_clock_reset/u_hdmi_pll/u_pll.fbclk[0]
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in rtl/net/anlogic_official/tx_client_fifo.v(70)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in rtl/vendor/sdr_wrrd.enc.v(283)
